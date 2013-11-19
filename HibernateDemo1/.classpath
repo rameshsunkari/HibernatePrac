@@ -8,5 +8,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="lib" path="D:/Technical/Jars/log4j-1.2.12.jar"/>
+	<classpathentry kind="output" path="CODE_ROOT/classes"/>
 </classpath>

@@ -12,6 +12,11 @@
   <property name="hibernate.connection.pool_size">1</property>
   <property name="hibernate.hbm2ddl.auto">create</property>
   <mapping class="org.hibernate.prac.model.UserDetails"/>
-  <mapping class="org.hibernate.prac.model.UserDetail"/>
+  <mapping class="org.hibernate.prac.model.UserAddress"/>
+  <mapping class="org.hibernate.prac.model.UserAddressInfo"/>
+  <mapping class="org.hibernate.prac.model.User"/>
+  <mapping class="org.hibernate.prac.model.Vehicle"/>
+  <mapping class="org.hibernate.prac.model.Job"/>
+  <mapping class="org.hibernate.prac.model.Books"/>
  </session-factory>
 </hibernate-configuration>

@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.classic.Session;
 import org.hibernate.prac.model.Address;
-import org.hibernate.prac.model.UserDetail;
+import org.hibernate.prac.model.UserAddress;
 import org.hibernate.prac.model.UserDetails;
 
 public class TestCreate {
@@ -20,7 +20,7 @@ public class TestCreate {
 		addr.setCountry("India");
 		addr.setPincode("500089");
 
-		UserDetail user = new UserDetail();
+		UserDetails user = new UserDetails();
 		user.setHomeAddress(addr);
 		user.setOfficeAddress(addr);
 		user.setUserName("Ramesh Sunkari");
@@ -46,7 +46,7 @@ public class TestCreate {
 		user = null;
 		session = sessionFactory.openSession();
 		session.beginTransaction();
-		user = (UserDetail) session.get(UserDetails.class, 1);
+		user = (UserDetails) session.get(UserDetails.class, 1);
 		System.out.println("User Object retrieved is: " + user);
 		session.getTransaction().commit();
 		session.close();

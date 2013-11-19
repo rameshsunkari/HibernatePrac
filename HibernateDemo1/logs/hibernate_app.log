@@ -1,0 +1,847 @@
+21:21:28,507 DEBUG BasicTypeRegistry:147 - Adding type registration boolean -> org.hibernate.type.BooleanType@9d04653
+21:21:28,509 DEBUG BasicTypeRegistry:147 - Adding type registration boolean -> org.hibernate.type.BooleanType@9d04653
+21:21:28,509 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@9d04653
+21:21:28,511 DEBUG BasicTypeRegistry:147 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6f507fb2
+21:21:28,514 DEBUG BasicTypeRegistry:147 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@59193779
+21:21:28,515 DEBUG BasicTypeRegistry:147 - Adding type registration yes_no -> org.hibernate.type.YesNoType@122ce908
+21:21:28,516 DEBUG BasicTypeRegistry:147 - Adding type registration byte -> org.hibernate.type.ByteType@3148aa23
+21:21:28,517 DEBUG BasicTypeRegistry:147 - Adding type registration byte -> org.hibernate.type.ByteType@3148aa23
+21:21:28,517 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@3148aa23
+21:21:28,518 DEBUG BasicTypeRegistry:147 - Adding type registration character -> org.hibernate.type.CharacterType@7d29f3b5
+21:21:28,519 DEBUG BasicTypeRegistry:147 - Adding type registration char -> org.hibernate.type.CharacterType@7d29f3b5
+21:21:28,519 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@7d29f3b5
+21:21:28,521 DEBUG BasicTypeRegistry:147 - Adding type registration short -> org.hibernate.type.ShortType@8d80be3
+21:21:28,521 DEBUG BasicTypeRegistry:147 - Adding type registration short -> org.hibernate.type.ShortType@8d80be3
+21:21:28,522 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@8d80be3
+21:21:28,523 DEBUG BasicTypeRegistry:147 - Adding type registration integer -> org.hibernate.type.IntegerType@6d8dfef8
+21:21:28,524 DEBUG BasicTypeRegistry:147 - Adding type registration int -> org.hibernate.type.IntegerType@6d8dfef8
+21:21:28,524 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6d8dfef8
+21:21:28,526 DEBUG BasicTypeRegistry:147 - Adding type registration long -> org.hibernate.type.LongType@48d6c16c
+21:21:28,526 DEBUG BasicTypeRegistry:147 - Adding type registration long -> org.hibernate.type.LongType@48d6c16c
+21:21:28,527 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@48d6c16c
+21:21:28,529 DEBUG BasicTypeRegistry:147 - Adding type registration float -> org.hibernate.type.FloatType@5dccce3c
+21:21:28,529 DEBUG BasicTypeRegistry:147 - Adding type registration float -> org.hibernate.type.FloatType@5dccce3c
+21:21:28,530 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5dccce3c
+21:21:28,532 DEBUG BasicTypeRegistry:147 - Adding type registration double -> org.hibernate.type.DoubleType@10b61fd1
+21:21:28,533 DEBUG BasicTypeRegistry:147 - Adding type registration double -> org.hibernate.type.DoubleType@10b61fd1
+21:21:28,533 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@10b61fd1
+21:21:28,536 DEBUG BasicTypeRegistry:147 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@43ef9157
+21:21:28,537 DEBUG BasicTypeRegistry:147 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@43ef9157
+21:21:28,539 DEBUG BasicTypeRegistry:147 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@77c99159
+21:21:28,539 DEBUG BasicTypeRegistry:147 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@77c99159
+21:21:28,540 DEBUG BasicTypeRegistry:147 - Adding type registration string -> org.hibernate.type.StringType@18a61164
+21:21:28,540 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.String -> org.hibernate.type.StringType@18a61164
+21:21:28,541 DEBUG BasicTypeRegistry:147 - Adding type registration url -> org.hibernate.type.UrlType@798fd984
+21:21:28,542 DEBUG BasicTypeRegistry:147 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@798fd984
+21:21:28,544 DEBUG BasicTypeRegistry:147 - Adding type registration date -> org.hibernate.type.DateType@3952c4d9
+21:21:28,544 DEBUG BasicTypeRegistry:147 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@3952c4d9
+21:21:28,546 DEBUG BasicTypeRegistry:147 - Adding type registration time -> org.hibernate.type.TimeType@36d251a3
+21:21:28,546 DEBUG BasicTypeRegistry:147 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@36d251a3
+21:21:28,548 DEBUG BasicTypeRegistry:147 - Adding type registration timestamp -> org.hibernate.type.TimestampType@38910040
+21:21:28,548 DEBUG BasicTypeRegistry:147 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@38910040
+21:21:28,548 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@38910040
+21:21:28,550 DEBUG BasicTypeRegistry:147 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@657d5d2a
+21:21:28,552 DEBUG BasicTypeRegistry:147 - Adding type registration calendar -> org.hibernate.type.CalendarType@6791d8c1
+21:21:28,552 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6791d8c1
+21:21:28,552 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6791d8c1
+21:21:28,554 DEBUG BasicTypeRegistry:147 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5a5e5a50
+21:21:28,555 DEBUG BasicTypeRegistry:147 - Adding type registration locale -> org.hibernate.type.LocaleType@5220be79
+21:21:28,555 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5220be79
+21:21:28,556 DEBUG BasicTypeRegistry:147 - Adding type registration currency -> org.hibernate.type.CurrencyType@3d84ec44
+21:21:28,557 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3d84ec44
+21:21:28,558 DEBUG BasicTypeRegistry:147 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@781edf4
+21:21:28,558 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@781edf4
+21:21:28,559 DEBUG BasicTypeRegistry:147 - Adding type registration class -> org.hibernate.type.ClassType@481adc30
+21:21:28,560 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@481adc30
+21:21:28,563 DEBUG BasicTypeRegistry:147 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@2d66a22b
+21:21:28,563 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@2d66a22b
+21:21:28,564 DEBUG BasicTypeRegistry:147 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4447393f
+21:21:28,566 DEBUG BasicTypeRegistry:147 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@7a763f5d
+21:21:28,568 DEBUG BasicTypeRegistry:147 - Adding type registration binary -> org.hibernate.type.BinaryType@48d19bc8
+21:21:28,568 DEBUG BasicTypeRegistry:147 - Adding type registration byte[] -> org.hibernate.type.BinaryType@48d19bc8
+21:21:28,569 DEBUG BasicTypeRegistry:147 - Adding type registration [B -> org.hibernate.type.BinaryType@48d19bc8
+21:21:28,572 DEBUG BasicTypeRegistry:147 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@21551f60
+21:21:28,573 DEBUG BasicTypeRegistry:147 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@21551f60
+21:21:28,573 DEBUG BasicTypeRegistry:147 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@21551f60
+21:21:28,575 DEBUG BasicTypeRegistry:147 - Adding type registration image -> org.hibernate.type.ImageType@790bc49d
+21:21:28,576 DEBUG BasicTypeRegistry:147 - Adding type registration characters -> org.hibernate.type.CharArrayType@4ac4aad3
+21:21:28,577 DEBUG BasicTypeRegistry:147 - Adding type registration char[] -> org.hibernate.type.CharArrayType@4ac4aad3
+21:21:28,577 DEBUG BasicTypeRegistry:147 - Adding type registration [C -> org.hibernate.type.CharArrayType@4ac4aad3
+21:21:28,579 DEBUG BasicTypeRegistry:147 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@78ce5b1c
+21:21:28,579 DEBUG BasicTypeRegistry:147 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@78ce5b1c
+21:21:28,579 DEBUG BasicTypeRegistry:147 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@78ce5b1c
+21:21:28,581 DEBUG BasicTypeRegistry:147 - Adding type registration text -> org.hibernate.type.TextType@86e293a
+21:21:28,587 DEBUG BasicTypeRegistry:147 - Adding type registration blob -> org.hibernate.type.BlobType@1cf11404
+21:21:28,587 DEBUG BasicTypeRegistry:147 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1cf11404
+21:21:28,587 DEBUG BasicTypeRegistry:147 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@5ca352a5
+21:21:28,588 DEBUG BasicTypeRegistry:147 - Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@2897a560
+21:21:28,592 DEBUG BasicTypeRegistry:147 - Adding type registration clob -> org.hibernate.type.ClobType@522a4983
+21:21:28,592 DEBUG BasicTypeRegistry:147 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@522a4983
+21:21:28,594 DEBUG BasicTypeRegistry:147 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1cc7b00c
+21:21:28,595 DEBUG BasicTypeRegistry:147 - Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@43b09468
+21:21:28,595 DEBUG BasicTypeRegistry:147 - Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@52b2a2d8
+21:21:28,596 DEBUG BasicTypeRegistry:147 - Adding type registration serializable -> org.hibernate.type.SerializableType@45b9ce4b
+21:21:28,599 DEBUG BasicTypeRegistry:147 - Adding type registration object -> org.hibernate.type.ObjectType@31f26605
+21:21:28,599 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@31f26605
+21:21:28,600 DEBUG BasicTypeRegistry:147 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@f0f11b8
+21:21:28,600 DEBUG BasicTypeRegistry:147 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@26544ec1
+21:21:28,600 DEBUG BasicTypeRegistry:147 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@68fe748f
+21:21:28,600 DEBUG BasicTypeRegistry:147 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@19968e23
+21:21:28,601 DEBUG BasicTypeRegistry:147 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6b4da8f4
+21:21:28,601 DEBUG BasicTypeRegistry:147 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@378f6235
+21:21:28,601 DEBUG BasicTypeRegistry:147 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2678a212
+21:21:28,601 DEBUG BasicTypeRegistry:147 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@39d85f79
+21:21:28,617  INFO Version:37 - Hibernate Commons Annotations 3.2.0.Final
+21:21:28,621  INFO Environment:603 - Hibernate 3.6.4.Final
+21:21:28,623  INFO Environment:636 - hibernate.properties not found
+21:21:28,625  INFO Environment:814 - Bytecode provider name : javassist
+21:21:28,628  INFO Environment:695 - using JDK 1.4 java.sql.Timestamp handling
+21:21:28,671 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [uuid2] -> [class org.hibernate.id.UUIDGenerator]
+21:21:28,672 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+21:21:28,673 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+21:21:28,673 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+21:21:28,675 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+21:21:28,675 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+21:21:28,676 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+21:21:28,677 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+21:21:28,677 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+21:21:28,678 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+21:21:28,678 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+21:21:28,679 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+21:21:28,680 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+21:21:28,680 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+21:21:28,681 DEBUG DefaultIdentifierGeneratorFactory:100 - Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+21:21:28,683  INFO Configuration:2156 - configuring from resource: /hibernate.cfg.xml
+21:21:28,683  INFO Configuration:2175 - Configuration resource: /hibernate.cfg.xml
+21:21:28,718 DEBUG DTDEntityResolver:67 - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+21:21:28,719  WARN DTDEntityResolver:73 - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+21:21:28,719 DEBUG DTDEntityResolver:77 - attempting to resolve on classpath under org/hibernate/
+21:21:28,720 DEBUG DTDEntityResolver:109 - located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+21:21:28,739 DEBUG Configuration:2118 - hibernate.connection.driver_class=oracle.jdbc.driver.OracleDriver
+21:21:28,740 DEBUG Configuration:2118 - hibernate.connection.password=practice
+21:21:28,740 DEBUG Configuration:2118 - hibernate.connection.url=jdbc:oracle:thin:@localhost:1521:orcl
+21:21:28,740 DEBUG Configuration:2118 - hibernate.connection.username=practice
+21:21:28,740 DEBUG Configuration:2118 - hibernate.dialect=org.hibernate.dialect.Oracle10gDialect
+21:21:28,741 DEBUG Configuration:2118 - hibernate.show_sql=true
+21:21:28,741 DEBUG Configuration:2118 - hibernate.connection.pool_size=1
+21:21:28,741 DEBUG Configuration:2118 - hibernate.hbm2ddl.auto=create
+21:21:28,741 DEBUG Configuration:2363 - session-factory config [hibernatePrac] named class [org.hibernate.prac.model.UserDetails] for mapping
+21:21:28,751 DEBUG Configuration:2363 - session-factory config [hibernatePrac] named class [org.hibernate.prac.model.UserAddress] for mapping
+21:21:28,752 DEBUG Configuration:2363 - session-factory config [hibernatePrac] named class [org.hibernate.prac.model.UserAddressInfo] for mapping
+21:21:28,754 DEBUG Configuration:2363 - session-factory config [hibernatePrac] named class [org.hibernate.prac.model.User] for mapping
+21:21:28,754 DEBUG Configuration:2363 - session-factory config [hibernatePrac] named class [org.hibernate.prac.model.Vehicle] for mapping
+21:21:28,754 DEBUG Configuration:2363 - session-factory config [hibernatePrac] named class [org.hibernate.prac.model.Job] for mapping
+21:21:28,754  INFO Configuration:2297 - Configured SessionFactory: hibernatePrac
+21:21:28,755 DEBUG Configuration:2298 - properties: {hibernate.connection.password=practice, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=D:\Project_Softwares\Java\jdk1.6.0_45\jre\bin, java.vm.version=20.45-b01, hibernate.connection.username=practice, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\Technical\Practice\Git\HibernatePrac\HibernateDemo1, java.runtime.version=1.6.0_45-b06, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\rsunkari\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=D:\Project_Softwares\Java\jdk1.6.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\app\rsunkari\product\11.2.0\dbhome_1\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;D:\Project_Softwares\Java\jdk1.6.0_45\bin;D:\Project_Softwares\ANT\apache-ant-1.7.0\bin;C:\Program Files\TortoiseSVN\bin;., java.specification.name=Java Platform API Specification, java.class.version=50.0, hibernate.connection.pool_size=1, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\rsunkari, user.timezone=Asia/Calcutta, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1252, java.specification.version=1.6, hibernate.connection.driver_class=oracle.jdbc.driver.OracleDriver, user.name=rsunkari, java.class.path=D:\Technical\Practice\Git\HibernatePrac\HibernateDemo1\CODE_ROOT\classes;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\hibernate3.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\required\antlr-2.7.6.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\required\commons-collections-3.1.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\required\dom4j-1.6.1.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\required\javassist-3.12.0.GA.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\required\jta-1.1.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\required\slf4j-api-1.6.1.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\jpa\hibernate-jpa-2.0-api-1.0.0.Final.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\bytecode\javassist\javassist-3.12.0.GA.jar;D:\Technical\Jars\ojdbc6.jar;D:\Technical\Jars\slf4j-log4j12-1.7.5.jar;D:\Technical\Jars\log4j-1.2.12.jar, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.0, sun.java.command=org.hibernate.prac.test.TestMapping, java.home=D:\Project_Softwares\Java\jdk1.6.0_45\jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.Oracle10gDialect, hibernate.connection.url=jdbc:oracle:thin:@localhost:1521:orcl, user.language=en, java.specification.vendor=Sun Microsystems Inc., awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.6.0_45, java.ext.dirs=D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\resources.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\rt.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\sunrsasign.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\jsse.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\jce.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\charsets.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\modules\jdk.boot.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\classes, java.vendor=Sun Microsystems Inc., file.separator=\, hibernate.session_factory_name=hibernatePrac, hibernate.hbm2ddl.auto=create, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}
+21:21:28,755 DEBUG Configuration:1854 - Preparing to build session factory with filters : {}
+21:21:28,797 DEBUG Configuration:3995 - Processing hbm.xml files
+21:21:28,797 DEBUG Configuration:4025 - Process annotated classes
+21:21:28,804  INFO AnnotationBinder:532 - Binding entity from annotated class: org.hibernate.prac.model.UserDetails
+21:21:28,828 DEBUG Ejb3Column:192 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:21:28,831 DEBUG AnnotationBinder:1019 - no value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+21:21:28,839 DEBUG EntityBinder:364 - Import with entity name UserDetails
+21:21:28,842  INFO EntityBinder:530 - Bind entity org.hibernate.prac.model.UserDetails on table USER_DETAILS
+21:21:28,882 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=userId, insertable=true, updatable=true, unique=false}
+21:21:28,885 DEBUG PropertyBinder:175 - binding property userId with lazy=false
+21:21:28,886 DEBUG SimpleValueBinder:303 - building SimpleValue for userId
+21:21:28,887 DEBUG PropertyBinder:255 - Building property userId
+21:21:28,890 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=description, insertable=true, updatable=true, unique=false}
+21:21:28,890 DEBUG PropertyBinder:175 - binding property description with lazy=false
+21:21:28,891 DEBUG SimpleValueBinder:303 - building SimpleValue for description
+21:21:28,891 DEBUG PropertyBinder:255 - Building property description
+21:21:28,892 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=homeAddress, insertable=true, updatable=true, unique=false}
+21:21:28,897 DEBUG Ejb3Column:423 - Column(s) overridden for property city
+21:21:28,898 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=HOME_CITY_NAME, insertable=true, updatable=true, unique=false}
+21:21:28,898 DEBUG PropertyBinder:175 - binding property city with lazy=false
+21:21:28,898 DEBUG SimpleValueBinder:303 - building SimpleValue for city
+21:21:28,899 DEBUG PropertyBinder:255 - Building property city
+21:21:28,899 DEBUG Ejb3Column:423 - Column(s) overridden for property country
+21:21:28,899 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=HOME_COUNTRY_NAME, insertable=true, updatable=true, unique=false}
+21:21:28,900 DEBUG PropertyBinder:175 - binding property country with lazy=false
+21:21:28,900 DEBUG SimpleValueBinder:303 - building SimpleValue for country
+21:21:28,900 DEBUG PropertyBinder:255 - Building property country
+21:21:28,901 DEBUG Ejb3Column:423 - Column(s) overridden for property pincode
+21:21:28,901 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=HOME_PIN_CODE, insertable=true, updatable=true, unique=false}
+21:21:28,902 DEBUG PropertyBinder:175 - binding property pincode with lazy=false
+21:21:28,902 DEBUG SimpleValueBinder:303 - building SimpleValue for pincode
+21:21:28,903 DEBUG PropertyBinder:255 - Building property pincode
+21:21:28,903 DEBUG Ejb3Column:423 - Column(s) overridden for property state
+21:21:28,904 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=HOME_STATE_NAME, insertable=true, updatable=true, unique=false}
+21:21:28,904 DEBUG PropertyBinder:175 - binding property state with lazy=false
+21:21:28,905 DEBUG SimpleValueBinder:303 - building SimpleValue for state
+21:21:28,905 DEBUG PropertyBinder:255 - Building property state
+21:21:28,906 DEBUG Ejb3Column:423 - Column(s) overridden for property street
+21:21:28,906 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=HOME_STREET_NAME, insertable=true, updatable=true, unique=false}
+21:21:28,906 DEBUG PropertyBinder:175 - binding property street with lazy=false
+21:21:28,907 DEBUG SimpleValueBinder:303 - building SimpleValue for street
+21:21:28,907 DEBUG PropertyBinder:255 - Building property street
+21:21:28,907 DEBUG PropertyBinder:255 - Building property homeAddress
+21:21:28,908 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=joinedDate, insertable=true, updatable=true, unique=false}
+21:21:28,908 DEBUG PropertyBinder:175 - binding property joinedDate with lazy=false
+21:21:28,909 DEBUG SimpleValueBinder:303 - building SimpleValue for joinedDate
+21:21:28,909 DEBUG PropertyBinder:255 - Building property joinedDate
+21:21:28,909 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=officeAddress, insertable=true, updatable=true, unique=false}
+21:21:28,910 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=CITY_NAME, insertable=true, updatable=true, unique=false}
+21:21:28,910 DEBUG PropertyBinder:175 - binding property city with lazy=false
+21:21:28,911 DEBUG SimpleValueBinder:303 - building SimpleValue for city
+21:21:28,911 DEBUG PropertyBinder:255 - Building property city
+21:21:28,911 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=COUNTRY_NAME, insertable=true, updatable=true, unique=false}
+21:21:28,912 DEBUG PropertyBinder:175 - binding property country with lazy=false
+21:21:28,912 DEBUG SimpleValueBinder:303 - building SimpleValue for country
+21:21:28,913 DEBUG PropertyBinder:255 - Building property country
+21:21:28,913 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=PIN_CODE, insertable=true, updatable=true, unique=false}
+21:21:28,914 DEBUG PropertyBinder:175 - binding property pincode with lazy=false
+21:21:28,914 DEBUG SimpleValueBinder:303 - building SimpleValue for pincode
+21:21:28,914 DEBUG PropertyBinder:255 - Building property pincode
+21:21:28,915 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=STATE_NAME, insertable=true, updatable=true, unique=false}
+21:21:28,915 DEBUG PropertyBinder:175 - binding property state with lazy=false
+21:21:28,915 DEBUG SimpleValueBinder:303 - building SimpleValue for state
+21:21:28,916 DEBUG PropertyBinder:255 - Building property state
+21:21:28,916 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=STREET_NAME, insertable=true, updatable=true, unique=false}
+21:21:28,916 DEBUG PropertyBinder:175 - binding property street with lazy=false
+21:21:28,917 DEBUG SimpleValueBinder:303 - building SimpleValue for street
+21:21:28,917 DEBUG PropertyBinder:255 - Building property street
+21:21:28,917 DEBUG PropertyBinder:255 - Building property officeAddress
+21:21:28,917 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_DETAILS), mappingColumn=userName, insertable=true, updatable=true, unique=false}
+21:21:28,918 DEBUG PropertyBinder:175 - binding property userName with lazy=false
+21:21:28,918 DEBUG SimpleValueBinder:303 - building SimpleValue for userName
+21:21:28,918 DEBUG PropertyBinder:255 - Building property userName
+21:21:28,920  INFO AnnotationBinder:532 - Binding entity from annotated class: org.hibernate.prac.model.UserAddress
+21:21:28,920 DEBUG Ejb3Column:192 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:21:28,920 DEBUG AnnotationBinder:1019 - no value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+21:21:28,920 DEBUG EntityBinder:364 - Import with entity name UserAddress
+21:21:28,921  INFO EntityBinder:530 - Bind entity org.hibernate.prac.model.UserAddress on table USER_ADDRESS
+21:21:28,937 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS), mappingColumn=userId, insertable=true, updatable=true, unique=false}
+21:21:28,937 DEBUG PropertyBinder:175 - binding property userId with lazy=false
+21:21:28,937 DEBUG SimpleValueBinder:303 - building SimpleValue for userId
+21:21:28,938 DEBUG PropertyBinder:255 - Building property userId
+21:21:28,939 DEBUG Ejb3Column:192 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+21:21:28,939 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS), mappingColumn=listOfAddress, insertable=true, updatable=true, unique=false}
+21:21:28,940 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS), mappingColumn=null, insertable=true, updatable=true, unique=false}
+21:21:28,953 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS), mappingColumn=listOfAddress, insertable=true, updatable=true, unique=false}
+21:21:28,954 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS), mappingColumn=listOfAddress_KEY, insertable=true, updatable=true, unique=false}
+21:21:28,955 DEBUG Ejb3Column:192 - Binding column: Ejb3JoinColumn{logicalColumnName='listOfAddress_KEY', referencedColumn='null', mappedBy='null'}
+21:21:28,956 DEBUG Ejb3Column:192 - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
+21:21:28,956 DEBUG Ejb3Column:192 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+21:21:28,958 DEBUG CollectionBinder:377 - Collection role: org.hibernate.prac.model.UserAddress.listOfAddress
+21:21:28,962 DEBUG PropertyBinder:255 - Building property listOfAddress
+21:21:28,963 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS), mappingColumn=userName, insertable=true, updatable=true, unique=false}
+21:21:28,963 DEBUG PropertyBinder:175 - binding property userName with lazy=false
+21:21:28,963 DEBUG SimpleValueBinder:303 - building SimpleValue for userName
+21:21:28,964 DEBUG PropertyBinder:255 - Building property userName
+21:21:28,964  INFO AnnotationBinder:532 - Binding entity from annotated class: org.hibernate.prac.model.UserAddressInfo
+21:21:28,964 DEBUG Ejb3Column:192 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:21:28,964 DEBUG AnnotationBinder:1019 - no value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+21:21:28,965 DEBUG EntityBinder:364 - Import with entity name UserAddressInfo
+21:21:28,965  INFO EntityBinder:530 - Bind entity org.hibernate.prac.model.UserAddressInfo on table USER_ADDRESS_INFO
+21:21:28,966 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS_INFO), mappingColumn=userId, insertable=true, updatable=true, unique=false}
+21:21:28,967 DEBUG PropertyBinder:175 - binding property userId with lazy=false
+21:21:28,967 DEBUG SimpleValueBinder:303 - building SimpleValue for userId
+21:21:28,967 DEBUG PropertyBinder:255 - Building property userId
+21:21:28,967 DEBUG Ejb3Column:192 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+21:21:28,967 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS_INFO), mappingColumn=listOfAddress, insertable=true, updatable=true, unique=false}
+21:21:28,968 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS_INFO), mappingColumn=null, insertable=true, updatable=true, unique=false}
+21:21:28,968 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS_INFO), mappingColumn=listOfAddress, insertable=true, updatable=true, unique=false}
+21:21:28,968 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS_INFO), mappingColumn=listOfAddress_KEY, insertable=true, updatable=true, unique=false}
+21:21:28,968 DEBUG Ejb3Column:192 - Binding column: Ejb3JoinColumn{logicalColumnName='listOfAddress_KEY', referencedColumn='null', mappedBy='null'}
+21:21:28,968 DEBUG Ejb3Column:192 - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
+21:21:28,969 DEBUG Ejb3Column:192 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+21:21:28,969 DEBUG CollectionBinder:377 - Collection role: org.hibernate.prac.model.UserAddressInfo.listOfAddress
+21:21:28,969 DEBUG PropertyBinder:255 - Building property listOfAddress
+21:21:28,969 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS_INFO), mappingColumn=userName, insertable=true, updatable=true, unique=false}
+21:21:28,969 DEBUG PropertyBinder:175 - binding property userName with lazy=false
+21:21:28,970 DEBUG SimpleValueBinder:303 - building SimpleValue for userName
+21:21:28,970 DEBUG PropertyBinder:255 - Building property userName
+21:21:28,970  INFO AnnotationBinder:532 - Binding entity from annotated class: org.hibernate.prac.model.User
+21:21:28,970 DEBUG Ejb3Column:192 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:21:28,970 DEBUG AnnotationBinder:1019 - no value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+21:21:28,970 DEBUG EntityBinder:364 - Import with entity name User
+21:21:28,971  INFO EntityBinder:530 - Bind entity org.hibernate.prac.model.User on table USERS
+21:21:28,973 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USERS), mappingColumn=userId, insertable=true, updatable=true, unique=false}
+21:21:28,974 DEBUG PropertyBinder:175 - binding property userId with lazy=false
+21:21:28,974 DEBUG SimpleValueBinder:303 - building SimpleValue for userId
+21:21:28,974 DEBUG PropertyBinder:255 - Building property userId
+21:21:28,974 DEBUG Ejb3Column:192 - Binding column: Ejb3JoinColumn{logicalColumnName='job_id', referencedColumn='', mappedBy=''}
+21:21:28,975 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USERS), mappingColumn=job, insertable=true, updatable=true, unique=false}
+21:21:28,977 DEBUG PropertyBinder:255 - Building property job
+21:21:28,977 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USERS), mappingColumn=userName, insertable=true, updatable=true, unique=false}
+21:21:28,978 DEBUG PropertyBinder:175 - binding property userName with lazy=false
+21:21:28,978 DEBUG SimpleValueBinder:303 - building SimpleValue for userName
+21:21:28,978 DEBUG PropertyBinder:255 - Building property userName
+21:21:28,978 DEBUG Ejb3Column:192 - Binding column: Ejb3JoinColumn{logicalColumnName='vehicle_id', referencedColumn='', mappedBy=''}
+21:21:28,978 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USERS), mappingColumn=vehicle, insertable=true, updatable=true, unique=false}
+21:21:28,979 DEBUG PropertyBinder:255 - Building property vehicle
+21:21:28,979  INFO AnnotationBinder:532 - Binding entity from annotated class: org.hibernate.prac.model.Vehicle
+21:21:28,979 DEBUG Ejb3Column:192 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:21:28,979 DEBUG AnnotationBinder:1019 - no value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+21:21:28,979 DEBUG EntityBinder:364 - Import with entity name Vehicle
+21:21:28,979  INFO EntityBinder:530 - Bind entity org.hibernate.prac.model.Vehicle on table Vehicle
+21:21:28,980 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Vehicle), mappingColumn=vehicleId, insertable=true, updatable=true, unique=false}
+21:21:28,980 DEBUG PropertyBinder:175 - binding property vehicleId with lazy=false
+21:21:28,980 DEBUG SimpleValueBinder:303 - building SimpleValue for vehicleId
+21:21:28,981 DEBUG PropertyBinder:255 - Building property vehicleId
+21:21:28,981 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Vehicle), mappingColumn=vehicleName, insertable=true, updatable=true, unique=false}
+21:21:28,981 DEBUG PropertyBinder:175 - binding property vehicleName with lazy=false
+21:21:28,981 DEBUG SimpleValueBinder:303 - building SimpleValue for vehicleName
+21:21:28,981 DEBUG PropertyBinder:255 - Building property vehicleName
+21:21:28,982  INFO AnnotationBinder:532 - Binding entity from annotated class: org.hibernate.prac.model.Job
+21:21:28,982 DEBUG Ejb3Column:192 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:21:28,982 DEBUG AnnotationBinder:1019 - no value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+21:21:28,982 DEBUG EntityBinder:364 - Import with entity name Job
+21:21:28,982  INFO EntityBinder:530 - Bind entity org.hibernate.prac.model.Job on table Job_Detail
+21:21:28,983 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Job_Detail), mappingColumn=jobId, insertable=true, updatable=true, unique=false}
+21:21:28,983 DEBUG PropertyBinder:175 - binding property jobId with lazy=false
+21:21:28,983 DEBUG SimpleValueBinder:303 - building SimpleValue for jobId
+21:21:28,983 DEBUG PropertyBinder:255 - Building property jobId
+21:21:28,984 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Job_Detail), mappingColumn=jobName, insertable=true, updatable=true, unique=false}
+21:21:28,984 DEBUG PropertyBinder:175 - binding property jobName with lazy=false
+21:21:28,984 DEBUG SimpleValueBinder:303 - building SimpleValue for jobName
+21:21:28,984 DEBUG PropertyBinder:255 - Building property jobName
+21:21:28,985 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for userId
+21:21:28,985 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for description
+21:21:28,985 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for city
+21:21:28,985 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for country
+21:21:28,985 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for pincode
+21:21:28,986 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for state
+21:21:28,986 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for street
+21:21:28,986 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for joinedDate
+21:21:28,986 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for city
+21:21:28,986 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for country
+21:21:28,986 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for pincode
+21:21:28,986 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for state
+21:21:28,987 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for street
+21:21:28,987 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for userName
+21:21:28,987 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for userId
+21:21:28,987 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for userName
+21:21:28,987 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for userId
+21:21:28,987 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for userName
+21:21:28,987 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for userId
+21:21:28,987 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for userName
+21:21:28,988 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for vehicleId
+21:21:28,988 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for vehicleName
+21:21:28,988 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for jobId
+21:21:28,988 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for jobName
+21:21:28,989 DEBUG Configuration:1466 - processing fk mappings (*ToOne and JoinedSubclass)
+21:21:28,993 DEBUG Configuration:1708 - processing extends queue
+21:21:28,993 DEBUG Configuration:1762 - processing extends queue
+21:21:28,993 DEBUG Configuration:1711 - processing collection mappings
+21:21:28,993 DEBUG CollectionSecondPass:63 - Second pass for collection: org.hibernate.prac.model.UserAddressInfo.listOfAddress
+21:21:28,993 DEBUG CollectionBinder:1178 - Binding a collection of element: org.hibernate.prac.model.UserAddressInfo.listOfAddress
+21:21:28,997 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_address_info_detail), mappingColumn=CITY_NAME, insertable=true, updatable=true, unique=false}
+21:21:28,998 DEBUG PropertyBinder:175 - binding property city with lazy=false
+21:21:28,998 DEBUG SimpleValueBinder:303 - building SimpleValue for city
+21:21:28,998 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for city
+21:21:28,998 DEBUG PropertyBinder:255 - Building property city
+21:21:28,998 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_address_info_detail), mappingColumn=COUNTRY_NAME, insertable=true, updatable=true, unique=false}
+21:21:28,999 DEBUG PropertyBinder:175 - binding property country with lazy=false
+21:21:28,999 DEBUG SimpleValueBinder:303 - building SimpleValue for country
+21:21:28,999 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for country
+21:21:28,999 DEBUG PropertyBinder:255 - Building property country
+21:21:28,999 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_address_info_detail), mappingColumn=PIN_CODE, insertable=true, updatable=true, unique=false}
+21:21:29,000 DEBUG PropertyBinder:175 - binding property pincode with lazy=false
+21:21:29,000 DEBUG SimpleValueBinder:303 - building SimpleValue for pincode
+21:21:29,000 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for pincode
+21:21:29,000 DEBUG PropertyBinder:255 - Building property pincode
+21:21:29,000 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_address_info_detail), mappingColumn=STATE_NAME, insertable=true, updatable=true, unique=false}
+21:21:29,001 DEBUG PropertyBinder:175 - binding property state with lazy=false
+21:21:29,001 DEBUG SimpleValueBinder:303 - building SimpleValue for state
+21:21:29,001 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for state
+21:21:29,001 DEBUG PropertyBinder:255 - Building property state
+21:21:29,001 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_address_info_detail), mappingColumn=STREET_NAME, insertable=true, updatable=true, unique=false}
+21:21:29,002 DEBUG PropertyBinder:175 - binding property street with lazy=false
+21:21:29,002 DEBUG SimpleValueBinder:303 - building SimpleValue for street
+21:21:29,002 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for street
+21:21:29,002 DEBUG PropertyBinder:255 - Building property street
+21:21:29,004 DEBUG CollectionSecondPass:79 - Mapped collection key: user_id, element: CITY_NAME, COUNTRY_NAME, PIN_CODE, STATE_NAME, STREET_NAME
+21:21:29,004 DEBUG CollectionSecondPass:63 - Second pass for collection: org.hibernate.prac.model.UserAddress.listOfAddress
+21:21:29,004 DEBUG CollectionBinder:1178 - Binding a collection of element: org.hibernate.prac.model.UserAddress.listOfAddress
+21:21:29,005 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_address_detail), mappingColumn=CITY_NAME, insertable=true, updatable=true, unique=false}
+21:21:29,005 DEBUG PropertyBinder:175 - binding property city with lazy=false
+21:21:29,005 DEBUG SimpleValueBinder:303 - building SimpleValue for city
+21:21:29,005 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for city
+21:21:29,005 DEBUG PropertyBinder:255 - Building property city
+21:21:29,006 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_address_detail), mappingColumn=COUNTRY_NAME, insertable=true, updatable=true, unique=false}
+21:21:29,006 DEBUG PropertyBinder:175 - binding property country with lazy=false
+21:21:29,006 DEBUG SimpleValueBinder:303 - building SimpleValue for country
+21:21:29,006 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for country
+21:21:29,007 DEBUG PropertyBinder:255 - Building property country
+21:21:29,007 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_address_detail), mappingColumn=PIN_CODE, insertable=true, updatable=true, unique=false}
+21:21:29,007 DEBUG PropertyBinder:175 - binding property pincode with lazy=false
+21:21:29,007 DEBUG SimpleValueBinder:303 - building SimpleValue for pincode
+21:21:29,007 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for pincode
+21:21:29,008 DEBUG PropertyBinder:255 - Building property pincode
+21:21:29,008 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_address_detail), mappingColumn=STATE_NAME, insertable=true, updatable=true, unique=false}
+21:21:29,008 DEBUG PropertyBinder:175 - binding property state with lazy=false
+21:21:29,008 DEBUG SimpleValueBinder:303 - building SimpleValue for state
+21:21:29,008 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for state
+21:21:29,009 DEBUG PropertyBinder:255 - Building property state
+21:21:29,009 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_address_detail), mappingColumn=STREET_NAME, insertable=true, updatable=true, unique=false}
+21:21:29,009 DEBUG PropertyBinder:175 - binding property street with lazy=false
+21:21:29,009 DEBUG SimpleValueBinder:303 - building SimpleValue for street
+21:21:29,009 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for street
+21:21:29,010 DEBUG PropertyBinder:255 - Building property street
+21:21:29,010 DEBUG Ejb3Column:192 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER_ADDRESS), mappingColumn=ADDRESS_ID, insertable=true, updatable=true, unique=false}
+21:21:29,012 DEBUG SimpleValueBinder:303 - building SimpleValue for null
+21:21:29,013 DEBUG SimpleValueBinder:341 - Setting SimpleValue typeName for null
+21:21:29,014 DEBUG CollectionSecondPass:79 - Mapped collection key: user_id, element: CITY_NAME, COUNTRY_NAME, PIN_CODE, STATE_NAME, STREET_NAME
+21:21:29,014 DEBUG Configuration:1721 - processing native query and ResultSetMapping mappings
+21:21:29,014 DEBUG Configuration:1729 - processing association property references
+21:21:29,014 DEBUG Configuration:1751 - processing foreign key constraints
+21:21:29,014 DEBUG Configuration:1820 - resolving reference to class: org.hibernate.prac.model.Job
+21:21:29,014 DEBUG Configuration:1820 - resolving reference to class: org.hibernate.prac.model.Vehicle
+21:21:29,014 DEBUG Configuration:1820 - resolving reference to class: org.hibernate.prac.model.UserAddress
+21:21:29,015 DEBUG Configuration:1820 - resolving reference to class: org.hibernate.prac.model.UserAddressInfo
+21:21:29,015  INFO Configuration:1676 - Hibernate Validator not found: ignoring
+21:21:29,017 DEBUG Configuration:1896 - Legacy Validator not present in classpath, ignoring event listener registration
+21:21:29,018 DEBUG HibernateSearchEventListenerRegister:231 - Search not present in classpath, ignoring event listener registration.
+21:21:29,019  INFO HibernateSearchEventListenerRegister:75 - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+21:21:29,045  INFO DriverManagerConnectionProvider:64 - Using Hibernate built-in connection pool (not for production use!)
+21:21:29,045  INFO DriverManagerConnectionProvider:65 - Hibernate connection pool size: 1
+21:21:29,045  INFO DriverManagerConnectionProvider:68 - autocommit mode: false
+21:21:29,109  INFO DriverManagerConnectionProvider:103 - using driver: oracle.jdbc.driver.OracleDriver at URL: jdbc:oracle:thin:@localhost:1521:orcl
+21:21:29,109  INFO DriverManagerConnectionProvider:106 - connection properties: {user=practice, password=practice}
+21:21:29,110 DEBUG DriverManagerConnectionProvider:132 - opening new JDBC connection
+21:21:29,317 DEBUG DriverManagerConnectionProvider:138 - created connection to: jdbc:oracle:thin:@localhost:1521:orcl, Isolation Level: 2
+21:21:29,334  INFO Dialect:135 - Using dialect: org.hibernate.dialect.Oracle10gDialect
+21:21:29,374  INFO SettingsFactory:126 - Database ->
+       name : Oracle
+    version : Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+      major : 11
+      minor : 2
+21:21:29,374  INFO SettingsFactory:132 - Driver ->
+       name : Oracle JDBC driver
+    version : 11.1.0.7.0-Production
+      major : 11
+      minor : 1
+21:21:29,375  INFO TransactionFactoryFactory:62 - Using default transaction strategy (direct JDBC transactions)
+21:21:29,376  INFO TransactionManagerLookupFactory:83 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+21:21:29,376  INFO SettingsFactory:179 - Automatic flush during beforeCompletion(): disabled
+21:21:29,376  INFO SettingsFactory:183 - Automatic session close at end of transaction: disabled
+21:21:29,376  INFO SettingsFactory:190 - JDBC batch size: 15
+21:21:29,377  INFO SettingsFactory:193 - JDBC batch updates for versioned data: disabled
+21:21:29,377  INFO SettingsFactory:198 - Scrollable result sets: enabled
+21:21:29,377 DEBUG SettingsFactory:202 - Wrap result sets: disabled
+21:21:29,377  INFO SettingsFactory:206 - JDBC3 getGeneratedKeys(): disabled
+21:21:29,377  INFO SettingsFactory:214 - Connection release mode: auto
+21:21:29,378  INFO SettingsFactory:241 - Default batch fetch size: 1
+21:21:29,378  INFO SettingsFactory:245 - Generate SQL with comments: disabled
+21:21:29,378  INFO SettingsFactory:249 - Order SQL updates by primary key: disabled
+21:21:29,378  INFO SettingsFactory:253 - Order SQL inserts for batching: disabled
+21:21:29,378  INFO SettingsFactory:431 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+21:21:29,380  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+21:21:29,380  INFO SettingsFactory:261 - Query language substitutions: {}
+21:21:29,380  INFO SettingsFactory:266 - JPA-QL strict compliance: disabled
+21:21:29,380  INFO SettingsFactory:271 - Second-level cache: enabled
+21:21:29,380  INFO SettingsFactory:275 - Query cache: disabled
+21:21:29,380  INFO SettingsFactory:406 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+21:21:29,381  INFO SettingsFactory:285 - Optimize cache for minimal puts: disabled
+21:21:29,382  INFO SettingsFactory:294 - Structured second-level cache entries: disabled
+21:21:29,385  INFO SettingsFactory:314 - Echoing all SQL to stdout
+21:21:29,385  INFO SettingsFactory:323 - Statistics: disabled
+21:21:29,385  INFO SettingsFactory:327 - Deleted entity synthetic identifier rollback: disabled
+21:21:29,386  INFO SettingsFactory:343 - Default entity-mode: pojo
+21:21:29,386  INFO SettingsFactory:347 - Named query checking : enabled
+21:21:29,386  INFO SettingsFactory:351 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+21:21:29,399  INFO SessionFactoryImpl:202 - building session factory
+21:21:29,403 DEBUG SessionFactoryImpl:206 - Statistics initialized [enabled=false]}
+21:21:29,404 TRACE TypeFactory:72 - Scoping types to session factory org.hibernate.impl.SessionFactoryImpl@10ed32c4
+21:21:29,404 DEBUG BasicTypeRegistry:147 - Adding type registration boolean -> org.hibernate.type.BooleanType@9d04653
+21:21:29,404 DEBUG BasicTypeRegistry:147 - Adding type registration boolean -> org.hibernate.type.BooleanType@9d04653
+21:21:29,404 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@9d04653
+21:21:29,404 DEBUG BasicTypeRegistry:147 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6f507fb2
+21:21:29,404 DEBUG BasicTypeRegistry:147 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@59193779
+21:21:29,405 DEBUG BasicTypeRegistry:147 - Adding type registration yes_no -> org.hibernate.type.YesNoType@122ce908
+21:21:29,405 DEBUG BasicTypeRegistry:147 - Adding type registration byte -> org.hibernate.type.ByteType@3148aa23
+21:21:29,405 DEBUG BasicTypeRegistry:147 - Adding type registration byte -> org.hibernate.type.ByteType@3148aa23
+21:21:29,405 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@3148aa23
+21:21:29,405 DEBUG BasicTypeRegistry:147 - Adding type registration character -> org.hibernate.type.CharacterType@7d29f3b5
+21:21:29,405 DEBUG BasicTypeRegistry:147 - Adding type registration char -> org.hibernate.type.CharacterType@7d29f3b5
+21:21:29,405 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@7d29f3b5
+21:21:29,405 DEBUG BasicTypeRegistry:147 - Adding type registration short -> org.hibernate.type.ShortType@8d80be3
+21:21:29,406 DEBUG BasicTypeRegistry:147 - Adding type registration short -> org.hibernate.type.ShortType@8d80be3
+21:21:29,407 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@8d80be3
+21:21:29,407 DEBUG BasicTypeRegistry:147 - Adding type registration integer -> org.hibernate.type.IntegerType@6d8dfef8
+21:21:29,407 DEBUG BasicTypeRegistry:147 - Adding type registration int -> org.hibernate.type.IntegerType@6d8dfef8
+21:21:29,408 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6d8dfef8
+21:21:29,408 DEBUG BasicTypeRegistry:147 - Adding type registration long -> org.hibernate.type.LongType@48d6c16c
+21:21:29,408 DEBUG BasicTypeRegistry:147 - Adding type registration long -> org.hibernate.type.LongType@48d6c16c
+21:21:29,408 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@48d6c16c
+21:21:29,408 DEBUG BasicTypeRegistry:147 - Adding type registration float -> org.hibernate.type.FloatType@5dccce3c
+21:21:29,408 DEBUG BasicTypeRegistry:147 - Adding type registration float -> org.hibernate.type.FloatType@5dccce3c
+21:21:29,408 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5dccce3c
+21:21:29,409 DEBUG BasicTypeRegistry:147 - Adding type registration double -> org.hibernate.type.DoubleType@10b61fd1
+21:21:29,409 DEBUG BasicTypeRegistry:147 - Adding type registration double -> org.hibernate.type.DoubleType@10b61fd1
+21:21:29,409 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@10b61fd1
+21:21:29,409 DEBUG BasicTypeRegistry:147 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@43ef9157
+21:21:29,409 DEBUG BasicTypeRegistry:147 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@43ef9157
+21:21:29,409 DEBUG BasicTypeRegistry:147 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@77c99159
+21:21:29,410 DEBUG BasicTypeRegistry:147 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@77c99159
+21:21:29,410 DEBUG BasicTypeRegistry:147 - Adding type registration string -> org.hibernate.type.StringType@18a61164
+21:21:29,410 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.String -> org.hibernate.type.StringType@18a61164
+21:21:29,410 DEBUG BasicTypeRegistry:147 - Adding type registration url -> org.hibernate.type.UrlType@798fd984
+21:21:29,410 DEBUG BasicTypeRegistry:147 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@798fd984
+21:21:29,411 DEBUG BasicTypeRegistry:147 - Adding type registration date -> org.hibernate.type.DateType@3952c4d9
+21:21:29,411 DEBUG BasicTypeRegistry:147 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@3952c4d9
+21:21:29,411 DEBUG BasicTypeRegistry:147 - Adding type registration time -> org.hibernate.type.TimeType@36d251a3
+21:21:29,411 DEBUG BasicTypeRegistry:147 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@36d251a3
+21:21:29,411 DEBUG BasicTypeRegistry:147 - Adding type registration timestamp -> org.hibernate.type.TimestampType@38910040
+21:21:29,411 DEBUG BasicTypeRegistry:147 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@38910040
+21:21:29,412 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@38910040
+21:21:29,412 DEBUG BasicTypeRegistry:147 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@657d5d2a
+21:21:29,412 DEBUG BasicTypeRegistry:147 - Adding type registration calendar -> org.hibernate.type.CalendarType@6791d8c1
+21:21:29,412 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6791d8c1
+21:21:29,412 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6791d8c1
+21:21:29,413 DEBUG BasicTypeRegistry:147 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5a5e5a50
+21:21:29,413 DEBUG BasicTypeRegistry:147 - Adding type registration locale -> org.hibernate.type.LocaleType@5220be79
+21:21:29,413 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5220be79
+21:21:29,413 DEBUG BasicTypeRegistry:147 - Adding type registration currency -> org.hibernate.type.CurrencyType@3d84ec44
+21:21:29,413 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3d84ec44
+21:21:29,414 DEBUG BasicTypeRegistry:147 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@781edf4
+21:21:29,414 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@781edf4
+21:21:29,414 DEBUG BasicTypeRegistry:147 - Adding type registration class -> org.hibernate.type.ClassType@481adc30
+21:21:29,414 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@481adc30
+21:21:29,414 DEBUG BasicTypeRegistry:147 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@2d66a22b
+21:21:29,414 DEBUG BasicTypeRegistry:147 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@2d66a22b
+21:21:29,415 DEBUG BasicTypeRegistry:147 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4447393f
+21:21:29,415 DEBUG BasicTypeRegistry:147 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@7a763f5d
+21:21:29,415 DEBUG BasicTypeRegistry:147 - Adding type registration binary -> org.hibernate.type.BinaryType@48d19bc8
+21:21:29,415 DEBUG BasicTypeRegistry:147 - Adding type registration byte[] -> org.hibernate.type.BinaryType@48d19bc8
+21:21:29,415 DEBUG BasicTypeRegistry:147 - Adding type registration [B -> org.hibernate.type.BinaryType@48d19bc8
+21:21:29,415 DEBUG BasicTypeRegistry:147 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@21551f60
+21:21:29,416 DEBUG BasicTypeRegistry:147 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@21551f60
+21:21:29,416 DEBUG BasicTypeRegistry:147 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@21551f60
+21:21:29,416 DEBUG BasicTypeRegistry:147 - Adding type registration image -> org.hibernate.type.ImageType@790bc49d
+21:21:29,416 DEBUG BasicTypeRegistry:147 - Adding type registration characters -> org.hibernate.type.CharArrayType@4ac4aad3
+21:21:29,417 DEBUG BasicTypeRegistry:147 - Adding type registration char[] -> org.hibernate.type.CharArrayType@4ac4aad3
+21:21:29,417 DEBUG BasicTypeRegistry:147 - Adding type registration [C -> org.hibernate.type.CharArrayType@4ac4aad3
+21:21:29,417 DEBUG BasicTypeRegistry:147 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@78ce5b1c
+21:21:29,417 DEBUG BasicTypeRegistry:147 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@78ce5b1c
+21:21:29,417 DEBUG BasicTypeRegistry:147 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@78ce5b1c
+21:21:29,418 DEBUG BasicTypeRegistry:147 - Adding type registration text -> org.hibernate.type.TextType@86e293a
+21:21:29,418 DEBUG BasicTypeRegistry:147 - Adding type registration blob -> org.hibernate.type.BlobType@1cf11404
+21:21:29,418 DEBUG BasicTypeRegistry:147 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1cf11404
+21:21:29,418 DEBUG BasicTypeRegistry:147 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@5ca352a5
+21:21:29,418 DEBUG BasicTypeRegistry:147 - Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@2897a560
+21:21:29,418 DEBUG BasicTypeRegistry:147 - Adding type registration clob -> org.hibernate.type.ClobType@522a4983
+21:21:29,419 DEBUG BasicTypeRegistry:147 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@522a4983
+21:21:29,419 DEBUG BasicTypeRegistry:147 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1cc7b00c
+21:21:29,419 DEBUG BasicTypeRegistry:147 - Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@43b09468
+21:21:29,419 DEBUG BasicTypeRegistry:147 - Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@52b2a2d8
+21:21:29,419 DEBUG BasicTypeRegistry:147 - Adding type registration serializable -> org.hibernate.type.SerializableType@45b9ce4b
+21:21:29,420 DEBUG BasicTypeRegistry:147 - Adding type registration object -> org.hibernate.type.ObjectType@31f26605
+21:21:29,420 DEBUG BasicTypeRegistry:147 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@31f26605
+21:21:29,420 DEBUG BasicTypeRegistry:147 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@39a2f02e
+21:21:29,420 DEBUG BasicTypeRegistry:147 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@78467991
+21:21:29,420 DEBUG BasicTypeRegistry:147 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@5ad75c47
+21:21:29,420 DEBUG BasicTypeRegistry:147 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@70eb67e8
+21:21:29,421 DEBUG BasicTypeRegistry:147 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6ef2ea42
+21:21:29,421 DEBUG BasicTypeRegistry:147 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@df1cbf6
+21:21:29,421 DEBUG BasicTypeRegistry:147 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7d858aa0
+21:21:29,421 DEBUG BasicTypeRegistry:147 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4a504ec1
+21:21:29,421 DEBUG BasicTypeRegistry:147 - Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@327124af
+21:21:29,421  INFO BasicTypeRegistry:150 - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@2897a560
+21:21:29,422 DEBUG BasicTypeRegistry:147 - Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@4125d61e
+21:21:29,422  INFO BasicTypeRegistry:150 - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@52b2a2d8
+21:21:29,422 DEBUG BasicTypeRegistry:147 - Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@45c3e9ba
+21:21:29,425  INFO BasicTypeRegistry:150 - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@43b09468
+21:21:29,425 DEBUG BasicTypeRegistry:147 - Adding type registration blob -> org.hibernate.type.BlobType@4402a6ff
+21:21:29,425  INFO BasicTypeRegistry:150 - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1cf11404
+21:21:29,425 DEBUG BasicTypeRegistry:147 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4402a6ff
+21:21:29,425  INFO BasicTypeRegistry:150 - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1cf11404
+21:21:29,425 DEBUG BasicTypeRegistry:147 - Adding type registration clob -> org.hibernate.type.ClobType@221f7708
+21:21:29,425  INFO BasicTypeRegistry:150 - Type registration [clob] overrides previous : org.hibernate.type.ClobType@522a4983
+21:21:29,426 DEBUG BasicTypeRegistry:147 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@221f7708
+21:21:29,426  INFO BasicTypeRegistry:150 - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@522a4983
+21:21:29,426 DEBUG BasicTypeRegistry:147 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3fbfbfb8
+21:21:29,426  INFO BasicTypeRegistry:150 - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@1cc7b00c
+21:21:29,436 DEBUG BasicTypeRegistry:147 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@a21d23b
+21:21:29,436  INFO BasicTypeRegistry:150 - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@5ca352a5
+21:21:29,437 DEBUG SessionFactoryImpl:228 - Session factory constructed with filter configurations : {}
+21:21:29,438 DEBUG SessionFactoryImpl:232 - instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=practice, sun.boot.library.path=D:\Project_Softwares\Java\jdk1.6.0_45\jre\bin, java.vm.version=20.45-b01, hibernate.connection.username=practice, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\Technical\Practice\Git\HibernatePrac\HibernateDemo1, java.runtime.version=1.6.0_45-b06, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\rsunkari\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=D:\Project_Softwares\Java\jdk1.6.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\app\rsunkari\product\11.2.0\dbhome_1\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;D:\Project_Softwares\Java\jdk1.6.0_45\bin;D:\Project_Softwares\ANT\apache-ant-1.7.0\bin;C:\Program Files\TortoiseSVN\bin;., java.specification.name=Java Platform API Specification, java.class.version=50.0, hibernate.connection.pool_size=1, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\rsunkari, user.timezone=Asia/Calcutta, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.6, file.encoding=Cp1252, hibernate.connection.driver_class=oracle.jdbc.driver.OracleDriver, java.class.path=D:\Technical\Practice\Git\HibernatePrac\HibernateDemo1\CODE_ROOT\classes;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\hibernate3.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\required\antlr-2.7.6.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\required\commons-collections-3.1.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\required\dom4j-1.6.1.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\required\javassist-3.12.0.GA.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\required\jta-1.1.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\required\slf4j-api-1.6.1.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\jpa\hibernate-jpa-2.0-api-1.0.0.Final.jar;D:\Technical\Practice\Hibernate\hibernate-distribution-3.6.4.Final-dist\hibernate-distribution-3.6.4.Final\lib\bytecode\javassist\javassist-3.12.0.GA.jar;D:\Technical\Jars\ojdbc6.jar;D:\Technical\Jars\slf4j-log4j12-1.7.5.jar;D:\Technical\Jars\log4j-1.2.12.jar, user.name=rsunkari, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.0, sun.arch.data.model=64, java.home=D:\Project_Softwares\Java\jdk1.6.0_45\jre, sun.java.command=org.hibernate.prac.test.TestMapping, hibernate.connection.url=jdbc:oracle:thin:@localhost:1521:orcl, hibernate.dialect=org.hibernate.dialect.Oracle10gDialect, java.specification.vendor=Sun Microsystems Inc., user.language=en, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.6.0_45, java.ext.dirs=D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\resources.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\rt.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\sunrsasign.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\jsse.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\jce.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\charsets.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\lib\modules\jdk.boot.jar;D:\Project_Softwares\Java\jdk1.6.0_45\jre\classes, java.vendor=Sun Microsystems Inc., file.separator=\, hibernate.session_factory_name=hibernatePrac, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, hibernate.hbm2ddl.auto=create, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64}
+21:21:29,447 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,448 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,448 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,448 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,449 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,449 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,560 DEBUG AbstractEntityPersister:2952 - Static SQL for entity: org.hibernate.prac.model.UserAddressInfo
+21:21:29,560 DEBUG AbstractEntityPersister:2957 -  Version select: select userId from USER_ADDRESS_INFO where userId =?
+21:21:29,560 DEBUG AbstractEntityPersister:2960 -  Snapshot select: select useraddres_.userId, useraddres_.userName as userName2_ from USER_ADDRESS_INFO useraddres_ where useraddres_.userId=?
+21:21:29,560 DEBUG AbstractEntityPersister:2963 -  Insert 0: insert into USER_ADDRESS_INFO (userName, userId) values (?, ?)
+21:21:29,560 DEBUG AbstractEntityPersister:2964 -  Update 0: update USER_ADDRESS_INFO set userName=? where userId=?
+21:21:29,561 DEBUG AbstractEntityPersister:2965 -  Delete 0: delete from USER_ADDRESS_INFO where userId=?
+21:21:29,565 DEBUG AbstractEntityPersister:2952 - Static SQL for entity: org.hibernate.prac.model.User
+21:21:29,566 DEBUG AbstractEntityPersister:2957 -  Version select: select userId from USERS where userId =?
+21:21:29,566 DEBUG AbstractEntityPersister:2960 -  Snapshot select: select user_.userId, user_.job_id as job3_3_, user_.userName as userName3_, user_.vehicle_id as vehicle4_3_ from USERS user_ where user_.userId=?
+21:21:29,566 DEBUG AbstractEntityPersister:2963 -  Insert 0: insert into USERS (job_id, userName, vehicle_id, userId) values (?, ?, ?, ?)
+21:21:29,566 DEBUG AbstractEntityPersister:2964 -  Update 0: update USERS set job_id=?, userName=?, vehicle_id=? where userId=?
+21:21:29,566 DEBUG AbstractEntityPersister:2965 -  Delete 0: delete from USERS where userId=?
+21:21:29,570 DEBUG AbstractEntityPersister:2952 - Static SQL for entity: org.hibernate.prac.model.UserAddress
+21:21:29,570 DEBUG AbstractEntityPersister:2957 -  Version select: select userId from USER_ADDRESS where userId =?
+21:21:29,570 DEBUG AbstractEntityPersister:2960 -  Snapshot select: select useraddres_.userId, useraddres_.userName as userName1_ from USER_ADDRESS useraddres_ where useraddres_.userId=?
+21:21:29,570 DEBUG AbstractEntityPersister:2963 -  Insert 0: insert into USER_ADDRESS (userName, userId) values (?, ?)
+21:21:29,570 DEBUG AbstractEntityPersister:2964 -  Update 0: update USER_ADDRESS set userName=? where userId=?
+21:21:29,570 DEBUG AbstractEntityPersister:2965 -  Delete 0: delete from USER_ADDRESS where userId=?
+21:21:29,578 DEBUG AbstractEntityPersister:2952 - Static SQL for entity: org.hibernate.prac.model.UserDetails
+21:21:29,578 DEBUG AbstractEntityPersister:2957 -  Version select: select userId from USER_DETAILS where userId =?
+21:21:29,578 DEBUG AbstractEntityPersister:2960 -  Snapshot select: select userdetail_.userId, userdetail_.description as descript2_0_, userdetail_.HOME_CITY_NAME as HOME3_0_, userdetail_.HOME_COUNTRY_NAME as HOME4_0_, userdetail_.HOME_PIN_CODE as HOME5_0_, userdetail_.HOME_STATE_NAME as HOME6_0_, userdetail_.HOME_STREET_NAME as HOME7_0_, userdetail_.joinedDate as joinedDate0_, userdetail_.CITY_NAME as CITY9_0_, userdetail_.COUNTRY_NAME as COUNTRY10_0_, userdetail_.PIN_CODE as PIN11_0_, userdetail_.STATE_NAME as STATE12_0_, userdetail_.STREET_NAME as STREET13_0_, userdetail_.userName as userName0_ from USER_DETAILS userdetail_ where userdetail_.userId=?
+21:21:29,579 DEBUG AbstractEntityPersister:2963 -  Insert 0: insert into USER_DETAILS (description, HOME_CITY_NAME, HOME_COUNTRY_NAME, HOME_PIN_CODE, HOME_STATE_NAME, HOME_STREET_NAME, joinedDate, CITY_NAME, COUNTRY_NAME, PIN_CODE, STATE_NAME, STREET_NAME, userName, userId) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+21:21:29,580 DEBUG AbstractEntityPersister:2964 -  Update 0: update USER_DETAILS set description=?, HOME_CITY_NAME=?, HOME_COUNTRY_NAME=?, HOME_PIN_CODE=?, HOME_STATE_NAME=?, HOME_STREET_NAME=?, joinedDate=?, CITY_NAME=?, COUNTRY_NAME=?, PIN_CODE=?, STATE_NAME=?, STREET_NAME=?, userName=? where userId=?
+21:21:29,580 DEBUG AbstractEntityPersister:2965 -  Delete 0: delete from USER_DETAILS where userId=?
+21:21:29,585 DEBUG AbstractEntityPersister:2952 - Static SQL for entity: org.hibernate.prac.model.Vehicle
+21:21:29,585 DEBUG AbstractEntityPersister:2957 -  Version select: select vehicleId from Vehicle where vehicleId =?
+21:21:29,585 DEBUG AbstractEntityPersister:2960 -  Snapshot select: select vehicle_.vehicleId, vehicle_.vehicleName as vehicleN2_4_ from Vehicle vehicle_ where vehicle_.vehicleId=?
+21:21:29,585 DEBUG AbstractEntityPersister:2963 -  Insert 0: insert into Vehicle (vehicleName, vehicleId) values (?, ?)
+21:21:29,585 DEBUG AbstractEntityPersister:2964 -  Update 0: update Vehicle set vehicleName=? where vehicleId=?
+21:21:29,586 DEBUG AbstractEntityPersister:2965 -  Delete 0: delete from Vehicle where vehicleId=?
+21:21:29,588 DEBUG AbstractEntityPersister:2952 - Static SQL for entity: org.hibernate.prac.model.Job
+21:21:29,588 DEBUG AbstractEntityPersister:2957 -  Version select: select jobId from Job_Detail where jobId =?
+21:21:29,589 DEBUG AbstractEntityPersister:2960 -  Snapshot select: select job_.jobId, job_.jobName as jobName5_ from Job_Detail job_ where job_.jobId=?
+21:21:29,589 DEBUG AbstractEntityPersister:2963 -  Insert 0: insert into Job_Detail (jobName, jobId) values (?, ?)
+21:21:29,589 DEBUG AbstractEntityPersister:2964 -  Update 0: update Job_Detail set jobName=? where jobId=?
+21:21:29,589 DEBUG AbstractEntityPersister:2965 -  Delete 0: delete from Job_Detail where jobId=?
+21:21:29,596 DEBUG AbstractCollectionPersister:610 - Static SQL for collection: org.hibernate.prac.model.UserAddressInfo.listOfAddress
+21:21:29,596 DEBUG AbstractCollectionPersister:612 -  Row insert: insert into user_address_info_detail (user_id, CITY_NAME, COUNTRY_NAME, PIN_CODE, STATE_NAME, STREET_NAME) values (?, ?, ?, ?, ?, ?)
+21:21:29,597 DEBUG AbstractCollectionPersister:615 -  Row update: update user_address_info_detail set CITY_NAME=?, COUNTRY_NAME=?, PIN_CODE=?, STATE_NAME=?, STREET_NAME=? where user_id=? and CITY_NAME=? and COUNTRY_NAME=? and PIN_CODE=? and STATE_NAME=? and STREET_NAME=?
+21:21:29,597 DEBUG AbstractCollectionPersister:618 -  Row delete: delete from user_address_info_detail where user_id=? and CITY_NAME=? and COUNTRY_NAME=? and PIN_CODE=? and STATE_NAME=? and STREET_NAME=?
+21:21:29,597 DEBUG AbstractCollectionPersister:621 -  One-shot delete: delete from user_address_info_detail where user_id=?
+21:21:29,599 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,605 DEBUG AbstractCollectionPersister:610 - Static SQL for collection: org.hibernate.prac.model.UserAddress.listOfAddress
+21:21:29,605 DEBUG AbstractCollectionPersister:612 -  Row insert: insert into user_address_detail (user_id, ADDRESS_ID, CITY_NAME, COUNTRY_NAME, PIN_CODE, STATE_NAME, STREET_NAME) values (?, ?, ?, ?, ?, ?, ?)
+21:21:29,605 DEBUG AbstractCollectionPersister:615 -  Row update: update user_address_detail set CITY_NAME=?, COUNTRY_NAME=?, PIN_CODE=?, STATE_NAME=?, STREET_NAME=? where ADDRESS_ID=?
+21:21:29,605 DEBUG AbstractCollectionPersister:618 -  Row delete: delete from user_address_detail where ADDRESS_ID=?
+21:21:29,606 DEBUG AbstractCollectionPersister:621 -  One-shot delete: delete from user_address_detail where user_id=?
+21:21:29,626 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddressInfo [NONE]: select useraddres0_.userId as userId2_0_, useraddres0_.userName as userName2_0_, listofaddr1_.user_id as user1_2_2_, listofaddr1_.CITY_NAME as CITY2_2_, listofaddr1_.COUNTRY_NAME as COUNTRY3_2_, listofaddr1_.PIN_CODE as PIN4_2_, listofaddr1_.STATE_NAME as STATE5_2_, listofaddr1_.STREET_NAME as STREET6_2_ from USER_ADDRESS_INFO useraddres0_ left outer join user_address_info_detail listofaddr1_ on useraddres0_.userId=listofaddr1_.user_id where useraddres0_.userId=?
+21:21:29,627 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddressInfo [READ]: select useraddres0_.userId as userId2_0_, useraddres0_.userName as userName2_0_, listofaddr1_.user_id as user1_2_2_, listofaddr1_.CITY_NAME as CITY2_2_, listofaddr1_.COUNTRY_NAME as COUNTRY3_2_, listofaddr1_.PIN_CODE as PIN4_2_, listofaddr1_.STATE_NAME as STATE5_2_, listofaddr1_.STREET_NAME as STREET6_2_ from USER_ADDRESS_INFO useraddres0_ left outer join user_address_info_detail listofaddr1_ on useraddres0_.userId=listofaddr1_.user_id where useraddres0_.userId=?
+21:21:29,627 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddressInfo [UPGRADE]: select useraddres0_.userId as userId2_0_, useraddres0_.userName as userName2_0_ from USER_ADDRESS_INFO useraddres0_ where useraddres0_.userId=? for update
+21:21:29,628 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddressInfo [UPGRADE_NOWAIT]: select useraddres0_.userId as userId2_0_, useraddres0_.userName as userName2_0_ from USER_ADDRESS_INFO useraddres0_ where useraddres0_.userId=? for update nowait
+21:21:29,628 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddressInfo [FORCE]: select useraddres0_.userId as userId2_0_, useraddres0_.userName as userName2_0_ from USER_ADDRESS_INFO useraddres0_ where useraddres0_.userId=? for update nowait
+21:21:29,628 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddressInfo [PESSIMISTIC_READ]: select useraddres0_.userId as userId2_0_, useraddres0_.userName as userName2_0_ from USER_ADDRESS_INFO useraddres0_ where useraddres0_.userId=? for update
+21:21:29,628 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddressInfo [PESSIMISTIC_WRITE]: select useraddres0_.userId as userId2_0_, useraddres0_.userName as userName2_0_ from USER_ADDRESS_INFO useraddres0_ where useraddres0_.userId=? for update
+21:21:29,629 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddressInfo [PESSIMISTIC_FORCE_INCREMENT]: select useraddres0_.userId as userId2_0_, useraddres0_.userName as userName2_0_ from USER_ADDRESS_INFO useraddres0_ where useraddres0_.userId=? for update nowait
+21:21:29,629 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddressInfo [OPTIMISTIC]: select useraddres0_.userId as userId2_0_, useraddres0_.userName as userName2_0_, listofaddr1_.user_id as user1_2_2_, listofaddr1_.CITY_NAME as CITY2_2_, listofaddr1_.COUNTRY_NAME as COUNTRY3_2_, listofaddr1_.PIN_CODE as PIN4_2_, listofaddr1_.STATE_NAME as STATE5_2_, listofaddr1_.STREET_NAME as STREET6_2_ from USER_ADDRESS_INFO useraddres0_ left outer join user_address_info_detail listofaddr1_ on useraddres0_.userId=listofaddr1_.user_id where useraddres0_.userId=?
+21:21:29,629 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddressInfo [OPTIMISTIC_FORCE_INCREMENT]: select useraddres0_.userId as userId2_0_, useraddres0_.userName as userName2_0_, listofaddr1_.user_id as user1_2_2_, listofaddr1_.CITY_NAME as CITY2_2_, listofaddr1_.COUNTRY_NAME as COUNTRY3_2_, listofaddr1_.PIN_CODE as PIN4_2_, listofaddr1_.STATE_NAME as STATE5_2_, listofaddr1_.STREET_NAME as STREET6_2_ from USER_ADDRESS_INFO useraddres0_ left outer join user_address_info_detail listofaddr1_ on useraddres0_.userId=listofaddr1_.user_id where useraddres0_.userId=?
+21:21:29,634 DEBUG EntityLoader:56 - Static select for action ACTION_MERGE on entity org.hibernate.prac.model.UserAddressInfo: select useraddres0_.userId as userId2_0_, useraddres0_.userName as userName2_0_ from USER_ADDRESS_INFO useraddres0_ where useraddres0_.userId=?
+21:21:29,635 DEBUG EntityLoader:56 - Static select for action ACTION_REFRESH on entity org.hibernate.prac.model.UserAddressInfo: select useraddres0_.userId as userId2_0_, useraddres0_.userName as userName2_0_ from USER_ADDRESS_INFO useraddres0_ where useraddres0_.userId=?
+21:21:29,636 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.User [NONE]: select user0_.userId as userId3_2_, user0_.job_id as job3_3_2_, user0_.userName as userName3_2_, user0_.vehicle_id as vehicle4_3_2_, job1_.jobId as jobId5_0_, job1_.jobName as jobName5_0_, vehicle2_.vehicleId as vehicleId4_1_, vehicle2_.vehicleName as vehicleN2_4_1_ from USERS user0_ left outer join Job_Detail job1_ on user0_.job_id=job1_.jobId left outer join Vehicle vehicle2_ on user0_.vehicle_id=vehicle2_.vehicleId where user0_.userId=?
+21:21:29,636 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.User [READ]: select user0_.userId as userId3_2_, user0_.job_id as job3_3_2_, user0_.userName as userName3_2_, user0_.vehicle_id as vehicle4_3_2_, job1_.jobId as jobId5_0_, job1_.jobName as jobName5_0_, vehicle2_.vehicleId as vehicleId4_1_, vehicle2_.vehicleName as vehicleN2_4_1_ from USERS user0_ left outer join Job_Detail job1_ on user0_.job_id=job1_.jobId left outer join Vehicle vehicle2_ on user0_.vehicle_id=vehicle2_.vehicleId where user0_.userId=?
+21:21:29,637 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.User [UPGRADE]: select user0_.userId as userId3_0_, user0_.job_id as job3_3_0_, user0_.userName as userName3_0_, user0_.vehicle_id as vehicle4_3_0_ from USERS user0_ where user0_.userId=? for update
+21:21:29,637 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.User [UPGRADE_NOWAIT]: select user0_.userId as userId3_0_, user0_.job_id as job3_3_0_, user0_.userName as userName3_0_, user0_.vehicle_id as vehicle4_3_0_ from USERS user0_ where user0_.userId=? for update nowait
+21:21:29,637 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.User [FORCE]: select user0_.userId as userId3_0_, user0_.job_id as job3_3_0_, user0_.userName as userName3_0_, user0_.vehicle_id as vehicle4_3_0_ from USERS user0_ where user0_.userId=? for update nowait
+21:21:29,637 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.User [PESSIMISTIC_READ]: select user0_.userId as userId3_0_, user0_.job_id as job3_3_0_, user0_.userName as userName3_0_, user0_.vehicle_id as vehicle4_3_0_ from USERS user0_ where user0_.userId=? for update
+21:21:29,637 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.User [PESSIMISTIC_WRITE]: select user0_.userId as userId3_0_, user0_.job_id as job3_3_0_, user0_.userName as userName3_0_, user0_.vehicle_id as vehicle4_3_0_ from USERS user0_ where user0_.userId=? for update
+21:21:29,638 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.User [PESSIMISTIC_FORCE_INCREMENT]: select user0_.userId as userId3_0_, user0_.job_id as job3_3_0_, user0_.userName as userName3_0_, user0_.vehicle_id as vehicle4_3_0_ from USERS user0_ where user0_.userId=? for update nowait
+21:21:29,638 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.User [OPTIMISTIC]: select user0_.userId as userId3_2_, user0_.job_id as job3_3_2_, user0_.userName as userName3_2_, user0_.vehicle_id as vehicle4_3_2_, job1_.jobId as jobId5_0_, job1_.jobName as jobName5_0_, vehicle2_.vehicleId as vehicleId4_1_, vehicle2_.vehicleName as vehicleN2_4_1_ from USERS user0_ left outer join Job_Detail job1_ on user0_.job_id=job1_.jobId left outer join Vehicle vehicle2_ on user0_.vehicle_id=vehicle2_.vehicleId where user0_.userId=?
+21:21:29,638 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.User [OPTIMISTIC_FORCE_INCREMENT]: select user0_.userId as userId3_2_, user0_.job_id as job3_3_2_, user0_.userName as userName3_2_, user0_.vehicle_id as vehicle4_3_2_, job1_.jobId as jobId5_0_, job1_.jobName as jobName5_0_, vehicle2_.vehicleId as vehicleId4_1_, vehicle2_.vehicleName as vehicleN2_4_1_ from USERS user0_ left outer join Job_Detail job1_ on user0_.job_id=job1_.jobId left outer join Vehicle vehicle2_ on user0_.vehicle_id=vehicle2_.vehicleId where user0_.userId=?
+21:21:29,639 DEBUG EntityLoader:56 - Static select for action ACTION_MERGE on entity org.hibernate.prac.model.User: select user0_.userId as userId3_0_, user0_.job_id as job3_3_0_, user0_.userName as userName3_0_, user0_.vehicle_id as vehicle4_3_0_ from USERS user0_ where user0_.userId=?
+21:21:29,639 DEBUG EntityLoader:56 - Static select for action ACTION_REFRESH on entity org.hibernate.prac.model.User: select user0_.userId as userId3_0_, user0_.job_id as job3_3_0_, user0_.userName as userName3_0_, user0_.vehicle_id as vehicle4_3_0_ from USERS user0_ where user0_.userId=?
+21:21:29,639 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddress [NONE]: select useraddres0_.userId as userId1_0_, useraddres0_.userName as userName1_0_ from USER_ADDRESS useraddres0_ where useraddres0_.userId=?
+21:21:29,639 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddress [READ]: select useraddres0_.userId as userId1_0_, useraddres0_.userName as userName1_0_ from USER_ADDRESS useraddres0_ where useraddres0_.userId=?
+21:21:29,639 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddress [UPGRADE]: select useraddres0_.userId as userId1_0_, useraddres0_.userName as userName1_0_ from USER_ADDRESS useraddres0_ where useraddres0_.userId=? for update
+21:21:29,640 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddress [UPGRADE_NOWAIT]: select useraddres0_.userId as userId1_0_, useraddres0_.userName as userName1_0_ from USER_ADDRESS useraddres0_ where useraddres0_.userId=? for update nowait
+21:21:29,640 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddress [FORCE]: select useraddres0_.userId as userId1_0_, useraddres0_.userName as userName1_0_ from USER_ADDRESS useraddres0_ where useraddres0_.userId=? for update nowait
+21:21:29,640 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddress [PESSIMISTIC_READ]: select useraddres0_.userId as userId1_0_, useraddres0_.userName as userName1_0_ from USER_ADDRESS useraddres0_ where useraddres0_.userId=? for update
+21:21:29,640 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddress [PESSIMISTIC_WRITE]: select useraddres0_.userId as userId1_0_, useraddres0_.userName as userName1_0_ from USER_ADDRESS useraddres0_ where useraddres0_.userId=? for update
+21:21:29,640 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddress [PESSIMISTIC_FORCE_INCREMENT]: select useraddres0_.userId as userId1_0_, useraddres0_.userName as userName1_0_ from USER_ADDRESS useraddres0_ where useraddres0_.userId=? for update nowait
+21:21:29,640 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddress [OPTIMISTIC]: select useraddres0_.userId as userId1_0_, useraddres0_.userName as userName1_0_ from USER_ADDRESS useraddres0_ where useraddres0_.userId=?
+21:21:29,641 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserAddress [OPTIMISTIC_FORCE_INCREMENT]: select useraddres0_.userId as userId1_0_, useraddres0_.userName as userName1_0_ from USER_ADDRESS useraddres0_ where useraddres0_.userId=?
+21:21:29,641 DEBUG EntityLoader:56 - Static select for action ACTION_MERGE on entity org.hibernate.prac.model.UserAddress: select useraddres0_.userId as userId1_0_, useraddres0_.userName as userName1_0_ from USER_ADDRESS useraddres0_ where useraddres0_.userId=?
+21:21:29,641 DEBUG EntityLoader:56 - Static select for action ACTION_REFRESH on entity org.hibernate.prac.model.UserAddress: select useraddres0_.userId as userId1_0_, useraddres0_.userName as userName1_0_ from USER_ADDRESS useraddres0_ where useraddres0_.userId=?
+21:21:29,641 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserDetails [NONE]: select userdetail0_.userId as userId0_0_, userdetail0_.description as descript2_0_0_, userdetail0_.HOME_CITY_NAME as HOME3_0_0_, userdetail0_.HOME_COUNTRY_NAME as HOME4_0_0_, userdetail0_.HOME_PIN_CODE as HOME5_0_0_, userdetail0_.HOME_STATE_NAME as HOME6_0_0_, userdetail0_.HOME_STREET_NAME as HOME7_0_0_, userdetail0_.joinedDate as joinedDate0_0_, userdetail0_.CITY_NAME as CITY9_0_0_, userdetail0_.COUNTRY_NAME as COUNTRY10_0_0_, userdetail0_.PIN_CODE as PIN11_0_0_, userdetail0_.STATE_NAME as STATE12_0_0_, userdetail0_.STREET_NAME as STREET13_0_0_, userdetail0_.userName as userName0_0_ from USER_DETAILS userdetail0_ where userdetail0_.userId=?
+21:21:29,642 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserDetails [READ]: select userdetail0_.userId as userId0_0_, userdetail0_.description as descript2_0_0_, userdetail0_.HOME_CITY_NAME as HOME3_0_0_, userdetail0_.HOME_COUNTRY_NAME as HOME4_0_0_, userdetail0_.HOME_PIN_CODE as HOME5_0_0_, userdetail0_.HOME_STATE_NAME as HOME6_0_0_, userdetail0_.HOME_STREET_NAME as HOME7_0_0_, userdetail0_.joinedDate as joinedDate0_0_, userdetail0_.CITY_NAME as CITY9_0_0_, userdetail0_.COUNTRY_NAME as COUNTRY10_0_0_, userdetail0_.PIN_CODE as PIN11_0_0_, userdetail0_.STATE_NAME as STATE12_0_0_, userdetail0_.STREET_NAME as STREET13_0_0_, userdetail0_.userName as userName0_0_ from USER_DETAILS userdetail0_ where userdetail0_.userId=?
+21:21:29,642 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserDetails [UPGRADE]: select userdetail0_.userId as userId0_0_, userdetail0_.description as descript2_0_0_, userdetail0_.HOME_CITY_NAME as HOME3_0_0_, userdetail0_.HOME_COUNTRY_NAME as HOME4_0_0_, userdetail0_.HOME_PIN_CODE as HOME5_0_0_, userdetail0_.HOME_STATE_NAME as HOME6_0_0_, userdetail0_.HOME_STREET_NAME as HOME7_0_0_, userdetail0_.joinedDate as joinedDate0_0_, userdetail0_.CITY_NAME as CITY9_0_0_, userdetail0_.COUNTRY_NAME as COUNTRY10_0_0_, userdetail0_.PIN_CODE as PIN11_0_0_, userdetail0_.STATE_NAME as STATE12_0_0_, userdetail0_.STREET_NAME as STREET13_0_0_, userdetail0_.userName as userName0_0_ from USER_DETAILS userdetail0_ where userdetail0_.userId=? for update
+21:21:29,642 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserDetails [UPGRADE_NOWAIT]: select userdetail0_.userId as userId0_0_, userdetail0_.description as descript2_0_0_, userdetail0_.HOME_CITY_NAME as HOME3_0_0_, userdetail0_.HOME_COUNTRY_NAME as HOME4_0_0_, userdetail0_.HOME_PIN_CODE as HOME5_0_0_, userdetail0_.HOME_STATE_NAME as HOME6_0_0_, userdetail0_.HOME_STREET_NAME as HOME7_0_0_, userdetail0_.joinedDate as joinedDate0_0_, userdetail0_.CITY_NAME as CITY9_0_0_, userdetail0_.COUNTRY_NAME as COUNTRY10_0_0_, userdetail0_.PIN_CODE as PIN11_0_0_, userdetail0_.STATE_NAME as STATE12_0_0_, userdetail0_.STREET_NAME as STREET13_0_0_, userdetail0_.userName as userName0_0_ from USER_DETAILS userdetail0_ where userdetail0_.userId=? for update nowait
+21:21:29,642 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserDetails [FORCE]: select userdetail0_.userId as userId0_0_, userdetail0_.description as descript2_0_0_, userdetail0_.HOME_CITY_NAME as HOME3_0_0_, userdetail0_.HOME_COUNTRY_NAME as HOME4_0_0_, userdetail0_.HOME_PIN_CODE as HOME5_0_0_, userdetail0_.HOME_STATE_NAME as HOME6_0_0_, userdetail0_.HOME_STREET_NAME as HOME7_0_0_, userdetail0_.joinedDate as joinedDate0_0_, userdetail0_.CITY_NAME as CITY9_0_0_, userdetail0_.COUNTRY_NAME as COUNTRY10_0_0_, userdetail0_.PIN_CODE as PIN11_0_0_, userdetail0_.STATE_NAME as STATE12_0_0_, userdetail0_.STREET_NAME as STREET13_0_0_, userdetail0_.userName as userName0_0_ from USER_DETAILS userdetail0_ where userdetail0_.userId=? for update nowait
+21:21:29,643 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserDetails [PESSIMISTIC_READ]: select userdetail0_.userId as userId0_0_, userdetail0_.description as descript2_0_0_, userdetail0_.HOME_CITY_NAME as HOME3_0_0_, userdetail0_.HOME_COUNTRY_NAME as HOME4_0_0_, userdetail0_.HOME_PIN_CODE as HOME5_0_0_, userdetail0_.HOME_STATE_NAME as HOME6_0_0_, userdetail0_.HOME_STREET_NAME as HOME7_0_0_, userdetail0_.joinedDate as joinedDate0_0_, userdetail0_.CITY_NAME as CITY9_0_0_, userdetail0_.COUNTRY_NAME as COUNTRY10_0_0_, userdetail0_.PIN_CODE as PIN11_0_0_, userdetail0_.STATE_NAME as STATE12_0_0_, userdetail0_.STREET_NAME as STREET13_0_0_, userdetail0_.userName as userName0_0_ from USER_DETAILS userdetail0_ where userdetail0_.userId=? for update
+21:21:29,643 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserDetails [PESSIMISTIC_WRITE]: select userdetail0_.userId as userId0_0_, userdetail0_.description as descript2_0_0_, userdetail0_.HOME_CITY_NAME as HOME3_0_0_, userdetail0_.HOME_COUNTRY_NAME as HOME4_0_0_, userdetail0_.HOME_PIN_CODE as HOME5_0_0_, userdetail0_.HOME_STATE_NAME as HOME6_0_0_, userdetail0_.HOME_STREET_NAME as HOME7_0_0_, userdetail0_.joinedDate as joinedDate0_0_, userdetail0_.CITY_NAME as CITY9_0_0_, userdetail0_.COUNTRY_NAME as COUNTRY10_0_0_, userdetail0_.PIN_CODE as PIN11_0_0_, userdetail0_.STATE_NAME as STATE12_0_0_, userdetail0_.STREET_NAME as STREET13_0_0_, userdetail0_.userName as userName0_0_ from USER_DETAILS userdetail0_ where userdetail0_.userId=? for update
+21:21:29,643 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserDetails [PESSIMISTIC_FORCE_INCREMENT]: select userdetail0_.userId as userId0_0_, userdetail0_.description as descript2_0_0_, userdetail0_.HOME_CITY_NAME as HOME3_0_0_, userdetail0_.HOME_COUNTRY_NAME as HOME4_0_0_, userdetail0_.HOME_PIN_CODE as HOME5_0_0_, userdetail0_.HOME_STATE_NAME as HOME6_0_0_, userdetail0_.HOME_STREET_NAME as HOME7_0_0_, userdetail0_.joinedDate as joinedDate0_0_, userdetail0_.CITY_NAME as CITY9_0_0_, userdetail0_.COUNTRY_NAME as COUNTRY10_0_0_, userdetail0_.PIN_CODE as PIN11_0_0_, userdetail0_.STATE_NAME as STATE12_0_0_, userdetail0_.STREET_NAME as STREET13_0_0_, userdetail0_.userName as userName0_0_ from USER_DETAILS userdetail0_ where userdetail0_.userId=? for update nowait
+21:21:29,643 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserDetails [OPTIMISTIC]: select userdetail0_.userId as userId0_0_, userdetail0_.description as descript2_0_0_, userdetail0_.HOME_CITY_NAME as HOME3_0_0_, userdetail0_.HOME_COUNTRY_NAME as HOME4_0_0_, userdetail0_.HOME_PIN_CODE as HOME5_0_0_, userdetail0_.HOME_STATE_NAME as HOME6_0_0_, userdetail0_.HOME_STREET_NAME as HOME7_0_0_, userdetail0_.joinedDate as joinedDate0_0_, userdetail0_.CITY_NAME as CITY9_0_0_, userdetail0_.COUNTRY_NAME as COUNTRY10_0_0_, userdetail0_.PIN_CODE as PIN11_0_0_, userdetail0_.STATE_NAME as STATE12_0_0_, userdetail0_.STREET_NAME as STREET13_0_0_, userdetail0_.userName as userName0_0_ from USER_DETAILS userdetail0_ where userdetail0_.userId=?
+21:21:29,644 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.UserDetails [OPTIMISTIC_FORCE_INCREMENT]: select userdetail0_.userId as userId0_0_, userdetail0_.description as descript2_0_0_, userdetail0_.HOME_CITY_NAME as HOME3_0_0_, userdetail0_.HOME_COUNTRY_NAME as HOME4_0_0_, userdetail0_.HOME_PIN_CODE as HOME5_0_0_, userdetail0_.HOME_STATE_NAME as HOME6_0_0_, userdetail0_.HOME_STREET_NAME as HOME7_0_0_, userdetail0_.joinedDate as joinedDate0_0_, userdetail0_.CITY_NAME as CITY9_0_0_, userdetail0_.COUNTRY_NAME as COUNTRY10_0_0_, userdetail0_.PIN_CODE as PIN11_0_0_, userdetail0_.STATE_NAME as STATE12_0_0_, userdetail0_.STREET_NAME as STREET13_0_0_, userdetail0_.userName as userName0_0_ from USER_DETAILS userdetail0_ where userdetail0_.userId=?
+21:21:29,644 DEBUG EntityLoader:56 - Static select for action ACTION_MERGE on entity org.hibernate.prac.model.UserDetails: select userdetail0_.userId as userId0_0_, userdetail0_.description as descript2_0_0_, userdetail0_.HOME_CITY_NAME as HOME3_0_0_, userdetail0_.HOME_COUNTRY_NAME as HOME4_0_0_, userdetail0_.HOME_PIN_CODE as HOME5_0_0_, userdetail0_.HOME_STATE_NAME as HOME6_0_0_, userdetail0_.HOME_STREET_NAME as HOME7_0_0_, userdetail0_.joinedDate as joinedDate0_0_, userdetail0_.CITY_NAME as CITY9_0_0_, userdetail0_.COUNTRY_NAME as COUNTRY10_0_0_, userdetail0_.PIN_CODE as PIN11_0_0_, userdetail0_.STATE_NAME as STATE12_0_0_, userdetail0_.STREET_NAME as STREET13_0_0_, userdetail0_.userName as userName0_0_ from USER_DETAILS userdetail0_ where userdetail0_.userId=?
+21:21:29,644 DEBUG EntityLoader:56 - Static select for action ACTION_REFRESH on entity org.hibernate.prac.model.UserDetails: select userdetail0_.userId as userId0_0_, userdetail0_.description as descript2_0_0_, userdetail0_.HOME_CITY_NAME as HOME3_0_0_, userdetail0_.HOME_COUNTRY_NAME as HOME4_0_0_, userdetail0_.HOME_PIN_CODE as HOME5_0_0_, userdetail0_.HOME_STATE_NAME as HOME6_0_0_, userdetail0_.HOME_STREET_NAME as HOME7_0_0_, userdetail0_.joinedDate as joinedDate0_0_, userdetail0_.CITY_NAME as CITY9_0_0_, userdetail0_.COUNTRY_NAME as COUNTRY10_0_0_, userdetail0_.PIN_CODE as PIN11_0_0_, userdetail0_.STATE_NAME as STATE12_0_0_, userdetail0_.STREET_NAME as STREET13_0_0_, userdetail0_.userName as userName0_0_ from USER_DETAILS userdetail0_ where userdetail0_.userId=?
+21:21:29,644 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Vehicle [NONE]: select vehicle0_.vehicleId as vehicleId4_0_, vehicle0_.vehicleName as vehicleN2_4_0_ from Vehicle vehicle0_ where vehicle0_.vehicleId=?
+21:21:29,644 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Vehicle [READ]: select vehicle0_.vehicleId as vehicleId4_0_, vehicle0_.vehicleName as vehicleN2_4_0_ from Vehicle vehicle0_ where vehicle0_.vehicleId=?
+21:21:29,645 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Vehicle [UPGRADE]: select vehicle0_.vehicleId as vehicleId4_0_, vehicle0_.vehicleName as vehicleN2_4_0_ from Vehicle vehicle0_ where vehicle0_.vehicleId=? for update
+21:21:29,645 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Vehicle [UPGRADE_NOWAIT]: select vehicle0_.vehicleId as vehicleId4_0_, vehicle0_.vehicleName as vehicleN2_4_0_ from Vehicle vehicle0_ where vehicle0_.vehicleId=? for update nowait
+21:21:29,645 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Vehicle [FORCE]: select vehicle0_.vehicleId as vehicleId4_0_, vehicle0_.vehicleName as vehicleN2_4_0_ from Vehicle vehicle0_ where vehicle0_.vehicleId=? for update nowait
+21:21:29,645 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Vehicle [PESSIMISTIC_READ]: select vehicle0_.vehicleId as vehicleId4_0_, vehicle0_.vehicleName as vehicleN2_4_0_ from Vehicle vehicle0_ where vehicle0_.vehicleId=? for update
+21:21:29,645 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Vehicle [PESSIMISTIC_WRITE]: select vehicle0_.vehicleId as vehicleId4_0_, vehicle0_.vehicleName as vehicleN2_4_0_ from Vehicle vehicle0_ where vehicle0_.vehicleId=? for update
+21:21:29,646 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Vehicle [PESSIMISTIC_FORCE_INCREMENT]: select vehicle0_.vehicleId as vehicleId4_0_, vehicle0_.vehicleName as vehicleN2_4_0_ from Vehicle vehicle0_ where vehicle0_.vehicleId=? for update nowait
+21:21:29,646 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Vehicle [OPTIMISTIC]: select vehicle0_.vehicleId as vehicleId4_0_, vehicle0_.vehicleName as vehicleN2_4_0_ from Vehicle vehicle0_ where vehicle0_.vehicleId=?
+21:21:29,646 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Vehicle [OPTIMISTIC_FORCE_INCREMENT]: select vehicle0_.vehicleId as vehicleId4_0_, vehicle0_.vehicleName as vehicleN2_4_0_ from Vehicle vehicle0_ where vehicle0_.vehicleId=?
+21:21:29,646 DEBUG EntityLoader:56 - Static select for action ACTION_MERGE on entity org.hibernate.prac.model.Vehicle: select vehicle0_.vehicleId as vehicleId4_0_, vehicle0_.vehicleName as vehicleN2_4_0_ from Vehicle vehicle0_ where vehicle0_.vehicleId=?
+21:21:29,646 DEBUG EntityLoader:56 - Static select for action ACTION_REFRESH on entity org.hibernate.prac.model.Vehicle: select vehicle0_.vehicleId as vehicleId4_0_, vehicle0_.vehicleName as vehicleN2_4_0_ from Vehicle vehicle0_ where vehicle0_.vehicleId=?
+21:21:29,647 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Job [NONE]: select job0_.jobId as jobId5_0_, job0_.jobName as jobName5_0_ from Job_Detail job0_ where job0_.jobId=?
+21:21:29,647 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Job [READ]: select job0_.jobId as jobId5_0_, job0_.jobName as jobName5_0_ from Job_Detail job0_ where job0_.jobId=?
+21:21:29,647 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Job [UPGRADE]: select job0_.jobId as jobId5_0_, job0_.jobName as jobName5_0_ from Job_Detail job0_ where job0_.jobId=? for update
+21:21:29,647 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Job [UPGRADE_NOWAIT]: select job0_.jobId as jobId5_0_, job0_.jobName as jobName5_0_ from Job_Detail job0_ where job0_.jobId=? for update nowait
+21:21:29,648 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Job [FORCE]: select job0_.jobId as jobId5_0_, job0_.jobName as jobName5_0_ from Job_Detail job0_ where job0_.jobId=? for update nowait
+21:21:29,648 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Job [PESSIMISTIC_READ]: select job0_.jobId as jobId5_0_, job0_.jobName as jobName5_0_ from Job_Detail job0_ where job0_.jobId=? for update
+21:21:29,648 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Job [PESSIMISTIC_WRITE]: select job0_.jobId as jobId5_0_, job0_.jobName as jobName5_0_ from Job_Detail job0_ where job0_.jobId=? for update
+21:21:29,648 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Job [PESSIMISTIC_FORCE_INCREMENT]: select job0_.jobId as jobId5_0_, job0_.jobName as jobName5_0_ from Job_Detail job0_ where job0_.jobId=? for update nowait
+21:21:29,648 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Job [OPTIMISTIC]: select job0_.jobId as jobId5_0_, job0_.jobName as jobName5_0_ from Job_Detail job0_ where job0_.jobId=?
+21:21:29,648 DEBUG EntityLoader:123 - Static select for entity org.hibernate.prac.model.Job [OPTIMISTIC_FORCE_INCREMENT]: select job0_.jobId as jobId5_0_, job0_.jobName as jobName5_0_ from Job_Detail job0_ where job0_.jobId=?
+21:21:29,649 DEBUG EntityLoader:56 - Static select for action ACTION_MERGE on entity org.hibernate.prac.model.Job: select job0_.jobId as jobId5_0_, job0_.jobName as jobName5_0_ from Job_Detail job0_ where job0_.jobId=?
+21:21:29,649 DEBUG EntityLoader:56 - Static select for action ACTION_REFRESH on entity org.hibernate.prac.model.Job: select job0_.jobId as jobId5_0_, job0_.jobName as jobName5_0_ from Job_Detail job0_ where job0_.jobId=?
+21:21:29,651 DEBUG BasicCollectionLoader:82 - Static select for collection org.hibernate.prac.model.UserAddressInfo.listOfAddress: select listofaddr0_.user_id as user1_2_0_, listofaddr0_.CITY_NAME as CITY2_0_, listofaddr0_.COUNTRY_NAME as COUNTRY3_0_, listofaddr0_.PIN_CODE as PIN4_0_, listofaddr0_.STATE_NAME as STATE5_0_, listofaddr0_.STREET_NAME as STREET6_0_ from user_address_info_detail listofaddr0_ where listofaddr0_.user_id=?
+21:21:29,652 DEBUG BasicCollectionLoader:82 - Static select for collection org.hibernate.prac.model.UserAddress.listOfAddress: select listofaddr0_.user_id as user1_1_0_, listofaddr0_.CITY_NAME as CITY2_0_, listofaddr0_.COUNTRY_NAME as COUNTRY3_0_, listofaddr0_.PIN_CODE as PIN4_0_, listofaddr0_.STATE_NAME as STATE5_0_, listofaddr0_.STREET_NAME as STREET6_0_, listofaddr0_.ADDRESS_ID as ADDRESS7_0_ from user_address_detail listofaddr0_ where listofaddr0_.user_id=?
+21:21:29,653 DEBUG SessionFactoryObjectFactory:61 - initializing class SessionFactoryObjectFactory
+21:21:29,654 DEBUG SessionFactoryObjectFactory:99 - registered: 3b8d711a-c412-4719-9af7-d1f12c63c7d1 (hibernatePrac)
+21:21:29,654  INFO SessionFactoryObjectFactory:109 - Factory name: hibernatePrac
+21:21:29,656  INFO NamingHelper:49 - JNDI InitialContext properties:{}
+21:21:29,659  WARN SessionFactoryObjectFactory:121 - Could not bind factory to JNDI
+javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:645)
+	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:288)
+	at javax.naming.InitialContext.getURLOrDefaultInitCtx(InitialContext.java:325)
+	at javax.naming.InitialContext.getNameParser(InitialContext.java:480)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:75)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:367)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1872)
+	at org.hibernate.prac.test.TestMapping.main(TestMapping.java:26)
+21:21:29,660 DEBUG SessionFactoryImpl:369 - instantiated session factory
+21:21:29,663 DEBUG Configuration:3995 - Processing hbm.xml files
+21:21:29,663 DEBUG Configuration:4025 - Process annotated classes
+21:21:29,663 DEBUG Configuration:1466 - processing fk mappings (*ToOne and JoinedSubclass)
+21:21:29,663 DEBUG Configuration:1708 - processing extends queue
+21:21:29,663 DEBUG Configuration:1762 - processing extends queue
+21:21:29,663 DEBUG Configuration:1711 - processing collection mappings
+21:21:29,663 DEBUG Configuration:1721 - processing native query and ResultSetMapping mappings
+21:21:29,664 DEBUG Configuration:1729 - processing association property references
+21:21:29,664 DEBUG Configuration:1751 - processing foreign key constraints
+21:21:29,664 DEBUG Configuration:1820 - resolving reference to class: org.hibernate.prac.model.Job
+21:21:29,664 DEBUG Configuration:1820 - resolving reference to class: org.hibernate.prac.model.Vehicle
+21:21:29,664 DEBUG Configuration:1820 - resolving reference to class: org.hibernate.prac.model.UserAddress
+21:21:29,664 DEBUG Configuration:1820 - resolving reference to class: org.hibernate.prac.model.UserAddressInfo
+21:21:29,665 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,666 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,666 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,666 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,666 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,666 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,666 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,667 DEBUG Configuration:3995 - Processing hbm.xml files
+21:21:29,667 DEBUG Configuration:4025 - Process annotated classes
+21:21:29,667 DEBUG Configuration:1466 - processing fk mappings (*ToOne and JoinedSubclass)
+21:21:29,667 DEBUG Configuration:1708 - processing extends queue
+21:21:29,667 DEBUG Configuration:1762 - processing extends queue
+21:21:29,667 DEBUG Configuration:1711 - processing collection mappings
+21:21:29,667 DEBUG Configuration:1721 - processing native query and ResultSetMapping mappings
+21:21:29,667 DEBUG Configuration:1729 - processing association property references
+21:21:29,668 DEBUG Configuration:1751 - processing foreign key constraints
+21:21:29,668 DEBUG Configuration:1820 - resolving reference to class: org.hibernate.prac.model.Job
+21:21:29,668 DEBUG Configuration:1820 - resolving reference to class: org.hibernate.prac.model.Vehicle
+21:21:29,668 DEBUG Configuration:1820 - resolving reference to class: org.hibernate.prac.model.UserAddress
+21:21:29,668 DEBUG Configuration:1820 - resolving reference to class: org.hibernate.prac.model.UserAddressInfo
+21:21:29,669 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,669 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,669 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,669 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,670 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,670 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,670 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,670 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,670 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,671 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,671 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,671 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,671 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,672 DEBUG DefaultIdentifierGeneratorFactory:90 - Setting dialect [org.hibernate.dialect.Oracle10gDialect]
+21:21:29,674  INFO SchemaExport:234 - Running hbm2ddl schema export
+21:21:29,674 DEBUG SchemaExport:252 - import file not found: /import.sql
+21:21:29,674  INFO SchemaExport:262 - exporting generated schema to database
+21:21:29,710 DEBUG SchemaExport:415 - drop table Job_Detail cascade constraints
+21:21:29,780 DEBUG SchemaExport:415 - drop table USERS cascade constraints
+21:21:29,828 DEBUG SchemaExport:415 - drop table USER_ADDRESS cascade constraints
+21:21:29,884 DEBUG SchemaExport:415 - drop table USER_ADDRESS_INFO cascade constraints
+21:21:29,943 DEBUG SchemaExport:415 - drop table USER_DETAILS cascade constraints
+21:21:30,097 DEBUG SchemaExport:415 - drop table Vehicle cascade constraints
+21:21:30,231 DEBUG SchemaExport:415 - drop table user_address_detail cascade constraints
+21:21:30,279 DEBUG SchemaExport:415 - drop table user_address_info_detail cascade constraints
+21:21:30,496 DEBUG SchemaExport:415 - drop sequence hibernate_sequence
+21:21:30,536 DEBUG SchemaExport:415 - drop table hibernate_unique_key cascade constraints
+21:21:30,609 DEBUG SchemaExport:415 - create table Job_Detail (jobId number(10,0) not null, jobName varchar2(255 char), primary key (jobId))
+21:21:30,662 DEBUG SchemaExport:415 - create table USERS (userId number(10,0) not null, userName varchar2(255 char), job_id number(10,0), vehicle_id number(10,0), primary key (userId))
+21:21:30,677 DEBUG SchemaExport:415 - create table USER_ADDRESS (userId number(10,0) not null, userName varchar2(255 char), primary key (userId))
+21:21:30,715 DEBUG SchemaExport:415 - create table USER_ADDRESS_INFO (userId number(10,0) not null, userName varchar2(255 char), primary key (userId))
+21:21:30,729 DEBUG SchemaExport:415 - create table USER_DETAILS (userId number(10,0) not null, description clob, HOME_CITY_NAME varchar2(255 char), HOME_COUNTRY_NAME varchar2(255 char), HOME_PIN_CODE varchar2(255 char), HOME_STATE_NAME varchar2(255 char), HOME_STREET_NAME varchar2(255 char), joinedDate date, CITY_NAME varchar2(255 char), COUNTRY_NAME varchar2(255 char), PIN_CODE varchar2(255 char), STATE_NAME varchar2(255 char), STREET_NAME varchar2(255 char), userName varchar2(255 char), primary key (userId))
+21:21:30,778 DEBUG SchemaExport:415 - create table Vehicle (vehicleId number(10,0) not null, vehicleName varchar2(255 char), primary key (vehicleId))
+21:21:30,828 DEBUG SchemaExport:415 - create table user_address_detail (user_id number(10,0) not null, CITY_NAME varchar2(255 char), COUNTRY_NAME varchar2(255 char), PIN_CODE varchar2(255 char), STATE_NAME varchar2(255 char), STREET_NAME varchar2(255 char), ADDRESS_ID number(19,0) not null, primary key (ADDRESS_ID))
+21:21:30,871 DEBUG SchemaExport:415 - create table user_address_info_detail (user_id number(10,0) not null, CITY_NAME varchar2(255 char), COUNTRY_NAME varchar2(255 char), PIN_CODE varchar2(255 char), STATE_NAME varchar2(255 char), STREET_NAME varchar2(255 char))
+21:21:30,907 DEBUG SchemaExport:415 - alter table USERS add constraint FK4D495E81674E551 foreign key (job_id) references Job_Detail
+21:21:30,924 DEBUG SchemaExport:415 - alter table USERS add constraint FK4D495E8E59D4771 foreign key (vehicle_id) references Vehicle
+21:21:30,947 DEBUG SchemaExport:415 - alter table user_address_detail add constraint FKF1F9F1F08F1F2D6F foreign key (user_id) references USER_ADDRESS
+21:21:30,959 DEBUG SchemaExport:415 - alter table user_address_info_detail add constraint FK33DF02C37A53563D foreign key (user_id) references USER_ADDRESS_INFO
+21:21:30,968 DEBUG SchemaExport:415 - create sequence hibernate_sequence
+21:21:30,970 DEBUG SchemaExport:415 - create table hibernate_unique_key ( next_hi number(10,0) )
+21:21:30,975 DEBUG SchemaExport:415 - insert into hibernate_unique_key values ( 0 )
+21:21:31,046  INFO SchemaExport:281 - schema export complete
+21:21:31,048 DEBUG SessionFactoryImpl:539 - Checking 0 named HQL queries
+21:21:31,048 DEBUG SessionFactoryImpl:559 - Checking 0 named SQL queries
+21:21:31,074 DEBUG SessionImpl:265 - opened session at timestamp: 13848762910
+21:21:31,075 DEBUG JDBCTransaction:78 - begin
+21:21:31,076 DEBUG ConnectionManager:444 - opening JDBC connection
+21:21:31,076 DEBUG JDBCTransaction:83 - current autocommit status: false
+21:21:31,077 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+21:21:31,077 DEBUG SQL:111 - select hibernate_sequence.nextval from dual
+21:21:31,235 DEBUG SequenceGenerator:118 - Sequence identifier generated: BasicHolder[java.lang.Integer[1]]
+21:21:31,236 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+21:21:31,236 DEBUG AbstractSaveEventListener:134 - generated identifier: 1, using strategy: org.hibernate.id.SequenceGenerator
+21:21:31,250 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+21:21:31,251 DEBUG SQL:111 - select hibernate_sequence.nextval from dual
+21:21:31,251 DEBUG SequenceGenerator:118 - Sequence identifier generated: BasicHolder[java.lang.Integer[2]]
+21:21:31,252 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+21:21:31,252 DEBUG AbstractSaveEventListener:134 - generated identifier: 2, using strategy: org.hibernate.id.SequenceGenerator
+21:21:31,252 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+21:21:31,252 DEBUG SQL:111 - select hibernate_sequence.nextval from dual
+21:21:31,253 DEBUG SequenceGenerator:118 - Sequence identifier generated: BasicHolder[java.lang.Integer[3]]
+21:21:31,253 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+21:21:31,254 DEBUG AbstractSaveEventListener:134 - generated identifier: 3, using strategy: org.hibernate.id.SequenceGenerator
+21:21:31,254 DEBUG JDBCTransaction:130 - commit
+21:21:31,255 DEBUG AbstractFlushingEventListener:134 - processing flush-time cascades
+21:21:31,256 DEBUG AbstractFlushingEventListener:177 - dirty checking collections
+21:21:31,259 DEBUG AbstractFlushingEventListener:108 - Flushed: 3 insertions, 1 updates, 0 deletions to 3 objects
+21:21:31,260 DEBUG AbstractFlushingEventListener:114 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+21:21:31,261 DEBUG Printer:106 - listing entities:
+21:21:31,261 DEBUG Printer:113 - org.hibernate.prac.model.Job{jobId=3, jobName=Applications Engineer}
+21:21:31,261 DEBUG Printer:113 - org.hibernate.prac.model.User{vehicle=org.hibernate.prac.model.Vehicle#2, userId=1, userName=Ramesh Sunkari, job=org.hibernate.prac.model.Job#3}
+21:21:31,261 DEBUG Printer:113 - org.hibernate.prac.model.Vehicle{vehicleId=2, vehicleName=Honda Unicorn}
+21:21:31,264 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+21:21:31,265 DEBUG SQL:111 - insert into USERS (job_id, userName, vehicle_id, userId) values (?, ?, ?, ?)
+21:21:31,269 TRACE BasicBinder:70 - binding parameter [1] as [INTEGER] - <null>
+21:21:31,270 TRACE BasicBinder:82 - binding parameter [2] as [VARCHAR] - Ramesh Sunkari
+21:21:31,270 TRACE BasicBinder:70 - binding parameter [3] as [INTEGER] - <null>
+21:21:31,270 TRACE BasicBinder:82 - binding parameter [4] as [INTEGER] - 1
+21:21:31,271 DEBUG AbstractBatcher:66 - Executing batch size: 1
+21:21:31,375 DEBUG Expectations:77 - success of batch update unknown: 0
+21:21:31,376 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+21:21:31,376 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+21:21:31,376 DEBUG SQL:111 - insert into Vehicle (vehicleName, vehicleId) values (?, ?)
+21:21:31,376 TRACE BasicBinder:82 - binding parameter [1] as [VARCHAR] - Honda Unicorn
+21:21:31,376 TRACE BasicBinder:82 - binding parameter [2] as [INTEGER] - 2
+21:21:31,377 DEBUG AbstractBatcher:66 - Executing batch size: 1
+21:21:31,381 DEBUG Expectations:77 - success of batch update unknown: 0
+21:21:31,381 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+21:21:31,381 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+21:21:31,381 DEBUG SQL:111 - insert into Job_Detail (jobName, jobId) values (?, ?)
+21:21:31,381 TRACE BasicBinder:82 - binding parameter [1] as [VARCHAR] - Applications Engineer
+21:21:31,382 TRACE BasicBinder:82 - binding parameter [2] as [INTEGER] - 3
+21:21:31,382 DEBUG AbstractBatcher:66 - Executing batch size: 1
+21:21:31,580 DEBUG Expectations:77 - success of batch update unknown: 0
+21:21:31,581 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+21:21:31,581 DEBUG AbstractBatcher:410 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+21:21:31,581 DEBUG SQL:111 - update USERS set job_id=?, userName=?, vehicle_id=? where userId=?
+21:21:31,582 TRACE BasicBinder:82 - binding parameter [1] as [INTEGER] - 3
+21:21:31,582 TRACE BasicBinder:82 - binding parameter [2] as [VARCHAR] - Ramesh Sunkari
+21:21:31,582 TRACE BasicBinder:82 - binding parameter [3] as [INTEGER] - 2
+21:21:31,583 TRACE BasicBinder:82 - binding parameter [4] as [INTEGER] - 1
+21:21:31,583 DEBUG AbstractBatcher:66 - Executing batch size: 1
+21:21:31,586 DEBUG Expectations:77 - success of batch update unknown: 0
+21:21:31,586 DEBUG AbstractBatcher:418 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+21:21:31,587 DEBUG JDBCTransaction:143 - committed JDBC Connection
+21:21:31,587 DEBUG ConnectionManager:427 - aggressively releasing JDBC connection
+21:21:31,587 DEBUG ConnectionManager:464 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
