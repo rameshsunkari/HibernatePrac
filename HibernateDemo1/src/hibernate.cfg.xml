@@ -14,9 +14,15 @@
   <mapping class="org.hibernate.prac.model.UserDetails"/>
   <mapping class="org.hibernate.prac.model.UserAddress"/>
   <mapping class="org.hibernate.prac.model.UserAddressInfo"/>
-  <mapping class="org.hibernate.prac.model.User"/>
-  <mapping class="org.hibernate.prac.model.Vehicle"/>
-  <mapping class="org.hibernate.prac.model.Job"/>
-  <mapping class="org.hibernate.prac.model.Books"/>
+  <mapping class="org.hibernate.prac.model.mapping.User"/>
+  <mapping class="org.hibernate.prac.model.mapping.Vehicle"/>
+  <mapping class="org.hibernate.prac.model.mapping.Job"/>
+  <mapping class="org.hibernate.prac.model.mapping.Books"/>
+  <mapping class="org.hibernate.prac.model.inheritance.single.VehicleInfo"/>
+  <mapping class="org.hibernate.prac.model.inheritance.single.TwoWheeler"/>
+  <mapping class="org.hibernate.prac.model.inheritance.single.FourWheeler"/>
+  <mapping class="org.hibernate.prac.model.inheritance.table.VehicleTableInfo"/>
+  <mapping class="org.hibernate.prac.model.inheritance.table.TwoWheelerTableInfo"/>
+  <mapping class="org.hibernate.prac.model.inheritance.table.FourWheelerTableInfo"/>
  </session-factory>
 </hibernate-configuration>
