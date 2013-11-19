@@ -57,14 +57,15 @@ public class TestMapping {
 				.buildSessionFactory();
 		Session session = sessionFactory.openSession();
 		session.beginTransaction();
-		session.save(user);
+		/*session.save(user);
 		session.save(vehicle);
 		session.save(vehicle1);
 		session.save(vehicle2);
 		session.save(book1);
 		session.save(book2);
 		session.save(book3);
-		session.save(job);
+		session.save(job);*/
+		session.persist(user);
 		session.getTransaction().commit();
 		session.close();
 

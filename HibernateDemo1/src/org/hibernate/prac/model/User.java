@@ -3,6 +3,7 @@ package org.hibernate.prac.model;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -29,14 +30,14 @@ public class User {
 	 * @JoinTable(name="USER_VEHICLE_INFO",joinColumns = @JoinColumn(name =
 	 * "USER_ID"), inverseJoinColumns = @JoinColumn(name = "VEHICLE_ID"))
 	 */
-	@OneToMany(mappedBy = "user")
+	@OneToMany(mappedBy = "user",cascade=CascadeType.ALL)
 	private Collection<Vehicle> vehicle = new ArrayList<Vehicle>();
 
-	@OneToOne
+	@OneToOne(cascade=CascadeType.ALL)
 	@JoinColumn(name = "job_id")
 	private Job job;
 
-	@ManyToMany
+	@ManyToMany(cascade=CascadeType.ALL)
 	@JoinTable(name = "USERS_BOOK", joinColumns = @JoinColumn(name = "USER_ID"), inverseJoinColumns = @JoinColumn(name = "BOOK_ID"))
 	private Collection<Books> books = new ArrayList<Books>();
 
