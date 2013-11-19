@@ -24,5 +24,8 @@
   <mapping class="org.hibernate.prac.model.inheritance.table.VehicleTableInfo"/>
   <mapping class="org.hibernate.prac.model.inheritance.table.TwoWheelerTableInfo"/>
   <mapping class="org.hibernate.prac.model.inheritance.table.FourWheelerTableInfo"/>
+  <mapping class="org.hibernate.prac.model.inheritance.joined.VehicleJoinedInfo"/>
+  <mapping class="org.hibernate.prac.model.inheritance.joined.TwoWheelerJoinedInfo"/>
+  <mapping class="org.hibernate.prac.model.inheritance.joined.FourWheelerJoinedInfo"/>
  </session-factory>
 </hibernate-configuration>
