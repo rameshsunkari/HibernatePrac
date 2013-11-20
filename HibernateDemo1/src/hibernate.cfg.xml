@@ -10,14 +10,16 @@
   <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
   <property name="hibernate.show_sql">true</property>
   <property name="hibernate.connection.pool_size">1</property>
-  <property name="hibernate.hbm2ddl.auto">create</property>
+  <property name="hibernate.hbm2ddl.auto">update</property>
   <mapping class="org.hibernate.prac.model.UserDetails"/>
+  <mapping class="org.hibernate.prac.model.UserInfo"/>
   <mapping class="org.hibernate.prac.model.UserAddress"/>
   <mapping class="org.hibernate.prac.model.UserAddressInfo"/>
   <mapping class="org.hibernate.prac.model.mapping.User"/>
   <mapping class="org.hibernate.prac.model.mapping.Vehicle"/>
   <mapping class="org.hibernate.prac.model.mapping.Job"/>
   <mapping class="org.hibernate.prac.model.mapping.Books"/>
+  <mapping class="org.hibernate.prac.model.hql.UserHQLInfo"/>
   <mapping class="org.hibernate.prac.model.inheritance.single.VehicleInfo"/>
   <mapping class="org.hibernate.prac.model.inheritance.single.TwoWheeler"/>
   <mapping class="org.hibernate.prac.model.inheritance.single.FourWheeler"/>
