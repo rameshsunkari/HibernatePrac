@@ -9,27 +9,31 @@ import org.hibernate.classic.Session;
 import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
 
-public class TestCriteria {
+public class TestProjections {
 
 	public static void main(String[] args) {
+
+
+
 		SessionFactory sessionFactory = new Configuration().configure()
 				.buildSessionFactory();
 		Session session = sessionFactory.openSession();
 		session.beginTransaction();
 
 		Criteria criteria = session.createCriteria(UserHQLInfo.class);
-		// criteria.add(Restrictions.gt("id", 5)).add(Restrictions.like("name", "%User1%"));
-		// criteria.add(Restrictions.between("id", 0, 10)).add(Restrictions.like("name", "User1%"));
-		criteria.add(Restrictions.or(Restrictions.between("id", 0, 10), Restrictions.like("name", "User1%")));
-		
-		List<UserHQLInfo> usersList = (List<UserHQLInfo>) criteria.list();
+		criteria.setProjection(Projections.count("id"));
+		List<Long> usersList = (List<Long>) criteria.list();
 
 		session.getTransaction().commit();
 		session.close();
-		for (UserHQLInfo user : usersList) {
+		/*for (UserHQLInfo user : usersList) {
+			System.out.println(user.getName());
+		}*/
+
+		for (Long user: usersList){
 			System.out.println(user);
 		}
-		
+	
 
 	}
 

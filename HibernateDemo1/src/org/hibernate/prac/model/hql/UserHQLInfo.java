@@ -1,5 +1,6 @@
 package org.hibernate.prac.model.hql;
 
+import javax.persistence.Cacheable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,8 +11,14 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
 @Entity
 @Table(name = "USER_INFO_HQL")
+@Cacheable
+@Cache(usage=CacheConcurrencyStrategy.READ_ONLY)
+
 @NamedQueries(value = {
 		@NamedQuery(name = "User.byId", query = "from UserHQLInfo where id = :id"),
 		@NamedQuery(name = "User.byName", query = "from UserHQLInfo where name = :name")
