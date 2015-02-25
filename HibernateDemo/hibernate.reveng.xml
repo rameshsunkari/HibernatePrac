@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-catalog="practice"
+		match-name="appcustomjarinfo" />
+	<table-filter match-catalog="practice" match-name="appinfo" />
+	<table-filter match-catalog="practice" match-name="cutomjarinfo" />
+	<table catalog="practice" name="appinfo">
+		<column name="id"></column>
+		<column name="appName"></column>
+		<column name="appContent"></column>
+	</table>
+	<table catalog="practice" name="appcustomjarinfo">
+		<column name="id"></column>
+		<column name="appId"></column>
+		<column name="jarId"></column>
+	</table>
+	<table catalog="practice" name="cutomjarinfo">
+		<column name="id"></column>
+		<column name="jarName"></column>
+		<column name="jarContent"></column>
+	</table>
+</hibernate-reverse-engineering>

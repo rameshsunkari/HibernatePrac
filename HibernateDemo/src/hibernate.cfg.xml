@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="hibernate.connection.password">practice</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernatedemo</property>
+  <property name="hibernate.connection.username">practice</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="hibernate.show_sql">true</property>
+  <property name="hibernate.connection.pool_size">1</property>
+  <property name="hibernate.hbm2ddl.auto">update</property>
+  <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory</property>
+  <property name="hibernate.cache.use_second_level_cache">true</property>
+  <property name="hibernate.cache.use_query_cache">true</property>
+  <mapping class="org.thinkadv.hibernate.prac.model.UserDetails"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.UserInfo"/>
+  <mapping class="org.omg.CosNaming.NamingContextExtPackage.AddressHelper"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.UserAddressInfo"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.UserAddress"/>
+  <mapping package="org.thinkadv.hibernate.prac.model.*"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.inheritance.single.VehicleInfo"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.inheritance.single.TwoWheeler"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.inheritance.single.FourWheeler"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.inheritance.table.VehicleTableInfo"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.inheritance.table.TwoWheelerTableInfo"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.inheritance.table.FourWheelerTableInfo"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.inheritance.joined.VehicleJoinedInfo"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.inheritance.joined.TwoWheelerJoinedInfo"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.inheritance.joined.FourWheelerJoinedInfo"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.mapping.User"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.mapping.Vehicle"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.mapping.Job"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.mapping.Books"/>
+  <mapping class="org.thinkadv.hibernate.prac.model.hql.UserHQLInfo"/>
+ </session-factory>
+</hibernate-configuration>
